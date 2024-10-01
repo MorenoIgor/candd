@@ -50,8 +50,13 @@ const maag = {
   imagem: "Awakened Tree"
 }
 
+let interval1
 
 export default function MonsterCreator() {
+
+  //clearInterval(interval1)
+
+  //interval1 = setInterval(atualizarVida,100)
 
   const [nivel,setNivel] = useState(1)
   const [tamanho,setTamanho] = useState(1)
@@ -65,14 +70,13 @@ export default function MonsterCreator() {
   const vidaMultTable = [0.5,1,1.5,2,3]
   const pontoAcaoAdicional = [0,0,1,2,3]
 
-  const [vida,setVida] = useState(Math.floor((vidaBaseTable[tamanho] + (vigor * nivel)) * vidaMultTable[tier]))
+  let vida = (vidaBaseTable[tamanho] + (vigor * nivel)) * vidaMultTable[tier]
+  
   const [vidaAtual,setVidaAtual] = useState(vida)
 
-  function atualizarVida() {
-    setVida(Math.floor((vidaBaseTable[tamanho] + (vigor * nivel)) * vidaMultTable[tier]))
-    setVidaAtual(Math.floor((vidaBaseTable[tamanho] + (vigor * nivel)) * vidaMultTable[tier]))
+  function atualizarVida(obj) {
+    setVidaAtual((vidaBaseTable[parseInt(obj.tm)] + (parseInt(obj.vg) * parseInt(obj.nv))) * vidaMultTable[parseInt(obj.ti)])
   }
-
 
   return (
     <main id="mainView">
@@ -84,7 +88,12 @@ export default function MonsterCreator() {
     <fieldset className="halfWidth" onChange={
       (event) => {
         setNivel(event.target.value)
-        atualizarVida()
+        atualizarVida({
+          tm: tamanho,
+          vg: vigor,
+          nv: event.target.value,
+          ti: tier
+        })
       }
     }>
       <h3 className="monsterCreatorFieldTitle">Nível</h3>
@@ -93,13 +102,23 @@ export default function MonsterCreator() {
       <button className="plusMinusButton" onClick = {
        () => {
           setNivel(changeNumber(nivel,-1,1,10))
-          atualizarVida()
+          atualizarVida({
+            tm: tamanho,
+            vg: vigor,
+            nv: changeNumber(nivel,-1,1,10),
+            ti: tier
+          })
        }
       }>-</button>
       <button className="plusMinusButton" onClick = {
        () => {
           setNivel(changeNumber(nivel,1,1,10))
-          atualizarVida()
+          atualizarVida({
+            tm: tamanho,
+            vg: vigor,
+            nv: changeNumber(nivel,1,1,10),
+            ti: tier
+          })
        }
       }>+</button>
 
@@ -109,7 +128,12 @@ export default function MonsterCreator() {
     <fieldset  className="halfWidth" onChange={
       (event) => {
         setVigor(event.target.value)
-        atualizarVida()
+        atualizarVida({
+          tm: tamanho,
+          vg: event.target.value,
+          nv: nivel,
+          ti: tier
+        })
       }
     }>
 
@@ -129,7 +153,14 @@ export default function MonsterCreator() {
     <fieldset onChange={
       (event) => {
         setTier(event.target.value)
-        atualizarVida()
+        atualizarVida(
+          {
+            tm: tamanho,
+            vg: vigor,
+            nv: nivel,
+            ti: event.target.value
+          }
+        )
       }
     }>
 
@@ -177,7 +208,12 @@ export default function MonsterCreator() {
     <fieldset onChange={
       (event) => {
         setTamanho(event.target.value)
-        atualizarVida()
+        atualizarVida({
+          tm: event.target.value,
+          vg: vigor,
+          nv: nivel,
+          ti: tier
+        })
       }
     }>
 
