@@ -1,42 +1,101 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: 'Simpleness'; /* Give your font a unique name */
+  src: url('./fonts/Simpleness.otf')
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: 'Asul'; /* Give your font a unique name */
+  src: url('./fonts/Asul-Regular.woff')
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+@font-face {
+  font-family: 'Asul Bold'; /* Give your font a unique name */
+  src: url('./fonts/Asul-Bold.woff')
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.hor-container {
+  /* display: flex;
+  flex-direction: row; */
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
+body, html {
+  background-color: antiquewhite;
+  font-family: Asul;
   margin: 0;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+fieldset {
+  border: 4pt solid saddlebrown;
+  margin-bottom: 10pt;
+  margin-top: 10pt;
+  background-color: whitesmoke;
+  width: 90%;
+  font-size: 14pt;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.monsterCreatorFieldTitle {
+  color: saddlebrown;
+  font-family: Simpleness;
+  margin-bottom: 8pt;
+  margin-top: 6pt;
+}
+
+.halfWidth {
+}
+
+.boldFont {
+  font-family: Asul Bold;
+}
+
+.numberDoubleDigit {
+  width: 40pt;
+  font-family: Asul Bold;
+  font-size: 16pt;
+  border: 2px solid black;
+  border-radius: 4pt;
+  text-align: center;
+}
+
+.plusMinusButton {
+  width: 30pt;
+  margin-left: 4pt;
+  font-family: Asul Bold;
+  font-size: 16pt;
+  border: 2px solid black;
+  border-radius: 4pt;
+  background-color: white;
+  cursor: pointer;
+}
+
+.plusMinusButton.smallButton {
+  width: 20pt;
+  margin-left: 4pt;
+  font-size: 12pt;
+  border: 1px solid black;
+  border-radius: 2pt;
+  background-color: white;
+}
+
+.plusMinusButton:hover {
+  background-color: lightblue;
+}
+
+.miniRollerDie:hover {
+  cursor: pointer;
+}
+
+.statBlockName {
+  margin-bottom: 8pt;
+}
+
+.monsterImage {
+  width: 66%;
+  margin: auto;
+  display: block;
+}
+
+#mainView {
+  width: 85%;
+  max-width: 700px;
+  margin: auto;
 }
