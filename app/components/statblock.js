@@ -31,6 +31,7 @@ export default function StatBlock({stats}) {
     */
 
         const [vidaAtual, setVidaAtual] = useState(stats.vida)
+        const [paAtual,setPaAtual] = useState(stats.pa)
 
     
 
@@ -44,17 +45,29 @@ export default function StatBlock({stats}) {
             <img className="monsterImage" src="/art/mikoarc/Awakened Tree.png"></img>
         <p>
           <span className="boldFont">Nível:</span> {stats.nivel} <br />
-          <span className="boldFont">PA:</span> {stats.pa} <br />
+          <span className="boldFont">PA:</span> {
+            paAtual == stats.pa ? stats.pa : `${paAtual}/${stats.pa}`
+          }
+          <button className={'plusMinusButton smallButton ' + (paAtual == 0 ? 'disabledButton' : '')}  onClick={
+            () => {
+                setPaAtual(changeNumber(paAtual,-1,0,stats.pa))
+            }
+          }>-</button>
+          <button className={'plusMinusButton smallButton ' + (paAtual == stats.pa ? 'disabledButton' : '')}  onClick={
+            () => {
+                setPaAtual(changeNumber(paAtual,1,0,stats.pa))
+            }
+          }>+</button> <br />
           <span className="boldFont">Defesa:</span> {stats.defesa} <br />
           <span className="boldFont">Vida:</span> {
             vidaAtual == stats.vida ? stats.vida : `${vidaAtual}/${stats.vida}`
           } 
-          <button className="plusMinusButton smallButton" onClick={
+          <button className={'plusMinusButton smallButton ' + (vidaAtual == 0 ? 'disabledButton' : '')}  onClick={
             () => {
                 setVidaAtual(changeNumber(vidaAtual,-1,0,stats.vida))
             }
           }>-</button>
-          <button className="plusMinusButton smallButton" onClick={
+          <button className={'plusMinusButton smallButton ' + (vidaAtual == stats.vida ? 'disabledButton' : '')}  onClick={
             () => {
                 setVidaAtual(changeNumber(vidaAtual,1,0,stats.vida))
             }

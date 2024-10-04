@@ -19,10 +19,53 @@
 }
 
 body, html {
-  background-color: antiquewhite;
+  background-color: whitesmoke;
   font-family: Asul;
   margin: 0;
+  user-select: none;
 }
+
+.bodyContent {
+  font-size: 14pt;
+  width: 90%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2pt solid #aaaaaa;
+}
+
+thead {
+  background-color: #aaaaaa;
+}
+
+thead th {
+  padding-top: 4pt;
+  padding-bottom: 4pt;
+  font-size: 12pt;
+}
+
+tbody tr:nth-child(even) td {
+  background-color: #f2f2f2; /* Light gray for even rows */
+  padding: 4pt;
+  padding-left: 8pt;
+}
+
+tbody tr:nth-child(odd) td {
+  background-color: #ffffff; /* White for odd rows */
+  padding: 4pt;
+  padding-left: 8pt;
+}
+
+tbody td {
+  border: 0px;
+  border-right: 2pt;
+  border-style: solid;
+  border-color: #aaaaaa;
+}
+
+
 
 fieldset {
   border: 4pt solid saddlebrown;
@@ -67,7 +110,7 @@ fieldset {
   cursor: pointer;
 }
 
-.plusMinusButton.smallButton {
+.smallButton {
   width: 20pt;
   margin-left: 4pt;
   font-size: 12pt;
@@ -80,6 +123,12 @@ fieldset {
   background-color: lightblue;
 }
 
+.disabledButton {
+  background-color: lightgray;
+  border-color: darkgray;
+  cursor: not-allowed;
+}
+
 .miniRollerDie:hover {
   cursor: pointer;
 }
@@ -88,7 +137,7 @@ fieldset {
   margin-bottom: 8pt;
 }
 
-.monsterImage {
+.monsterImage, .bodyContent img {
   width: 66%;
   margin: auto;
   display: block;
@@ -98,4 +147,8 @@ fieldset {
   width: 85%;
   max-width: 700px;
   margin: auto;
+}
+
+hr {
+  border: 1px solid saddlebrown;
 }

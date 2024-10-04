@@ -4,7 +4,9 @@ import Image from "next/image";
 
 import MiniRoller from "./components/miniroller";
 
-import { useState } from "react";
+import BookContent from "./components/bookcontent";
+
+import { useState, useEffect } from "react";
 import StatBlock from "./components/statblock";
 
 import {changeNumber} from "./components/utils.js"
@@ -70,18 +72,26 @@ export default function MonsterCreator() {
   const vidaMultTable = [0.5,1,1.5,2,3]
   const pontoAcaoAdicional = [0,0,1,2,3]
 
-  let vida = (vidaBaseTable[tamanho] + (vigor * nivel)) * vidaMultTable[tier]
-  
+  let vida = Math.floor((vidaBaseTable[tamanho] + (vigor * nivel)) * vidaMultTable[tier])
   const [vidaAtual,setVidaAtual] = useState(vida)
 
+  let pa = Math.round(nivel/2) + pontoAcaoAdicional[tier]
+  const [paAtual,setPaAtual] = useState(pa)
+
   function atualizarVida(obj) {
-    setVidaAtual((vidaBaseTable[parseInt(obj.tm)] + (parseInt(obj.vg) * parseInt(obj.nv))) * vidaMultTable[parseInt(obj.ti)])
+    setVidaAtual(Math.floor((vidaBaseTable[parseInt(obj.tm)] + (parseInt(obj.vg) * parseInt(obj.nv))) * vidaMultTable[parseInt(obj.ti)]))
+  }
+
+  function atualizarPa(obj) {
+    setPaAtual(Math.round(obj.nv/2) + pontoAcaoAdicional[obj.ti])
   }
 
   return (
     <main id="mainView">
 
-    <StatBlock stats={maag} />
+    {/* <StatBlock stats={maag} /> */}
+
+    <BookContent chapter="2" page="4" />
 
     <div className="hor-container">
     
@@ -94,12 +104,16 @@ export default function MonsterCreator() {
           nv: event.target.value,
           ti: tier
         })
+        atualizarPa({
+          nv: event.target.value,
+          ti: tier
+        })
       }
     }>
       <h3 className="monsterCreatorFieldTitle">Nível</h3>
 
       <input className="numberDoubleDigit" type="number" min="1" max="10" defaultValue={nivel} />
-      <button className="plusMinusButton" onClick = {
+      <button className={'plusMinusButton ' + (nivel == 1 ? 'disabledButton' : '')}  onClick = {
        () => {
           setNivel(changeNumber(nivel,-1,1,10))
           atualizarVida({
@@ -108,14 +122,22 @@ export default function MonsterCreator() {
             nv: changeNumber(nivel,-1,1,10),
             ti: tier
           })
+          atualizarPa({
+            nv: changeNumber(nivel,-1,1,10),
+            ti: tier
+          })
        }
       }>-</button>
-      <button className="plusMinusButton" onClick = {
+      <button className={'plusMinusButton ' + (nivel == 10 ? 'disabledButton' : '')} onClick = {
        () => {
           setNivel(changeNumber(nivel,1,1,10))
           atualizarVida({
             tm: tamanho,
             vg: vigor,
+            nv: changeNumber(nivel,1,1,10),
+            ti: tier
+          })
+          atualizarPa({
             nv: changeNumber(nivel,1,1,10),
             ti: tier
           })
@@ -161,6 +183,10 @@ export default function MonsterCreator() {
             ti: event.target.value
           }
         )
+        atualizarPa({
+          nv: nivel,
+          ti: event.target.value
+        })
       }
     }>
 
@@ -183,14 +209,14 @@ export default function MonsterCreator() {
       <h3 className="monsterCreatorFieldTitle">Defesa</h3>
 
       <input className="numberDoubleDigit"  type="number" min="10" max="20" defaultValue={defesa} />
-      <button className="plusMinusButton" onClick = {
+      <button className={'plusMinusButton ' + (defesa == 10 ? 'disabledButton' : '')} onClick = {
        () => {
           let def = changeNumber(defesa,-1,10,20)
           setDefesa(def)
           setPorcentagem((21-def)*5)
        }
       }>-</button>
-      <button className="plusMinusButton" onClick = {
+      <button className={'plusMinusButton ' + (defesa== 20 ? 'disabledButton' : '')} onClick = {
        () => {
           let def = changeNumber(defesa,1,10,20)
           setDefesa(def)
@@ -245,17 +271,29 @@ export default function MonsterCreator() {
     <fieldset>
     <p>
       <span className="boldFont">Nível:</span> {nivel} <br />
-      <span className="boldFont">PA:</span> {Math.round(nivel/2) + pontoAcaoAdicional[tier]} <br />
+      <span className="boldFont">PA:</span> {
+            paAtual == pa ? pa : `${paAtual}/${pa}`
+          }
+          <button className={'plusMinusButton smallButton ' + (paAtual == 0 ? 'disabledButton' : '')} onClick={
+            () => {
+                setPaAtual(changeNumber(paAtual,-1,0,pa))
+            }
+          }>-</button>
+          <button className={'plusMinusButton smallButton ' + (paAtual == pa ? 'disabledButton' : '')} onClick={
+            () => {
+                setPaAtual(changeNumber(paAtual,1,0,pa))
+            }
+          }>+</button> <br />
       <span className="boldFont">Defesa:</span> {defesa} <br />
       <span className="boldFont">Vida:</span> {
             vidaAtual == vida ? vida : `${vidaAtual}/${vida}`
           } 
-          <button className="plusMinusButton smallButton" onClick={
+          <button className={'plusMinusButton smallButton ' + (vidaAtual == 0 ? 'disabledButton' : '')} onClick={
             () => {
                 setVidaAtual(changeNumber(vidaAtual,-1,0,vida))
             }
           }>-</button>
-          <button className="plusMinusButton smallButton" onClick={
+          <button className={'plusMinusButton smallButton ' + (vidaAtual == vida ? 'disabledButton' : '')} onClick={
             () => {
                 setVidaAtual(changeNumber(vidaAtual,1,0,vida))
             }
