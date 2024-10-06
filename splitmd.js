@@ -2,6 +2,7 @@ var fs = require('fs');
 
 let chapter_count = 0
 let pages_array = []
+let chapter_titles = []
 
 const data = fs.readFileSync(__dirname+'/Cavernas AND Dragões.md', 'utf8');
 
@@ -30,10 +31,10 @@ const data = fs.readFileSync(__dirname+'/Cavernas AND Dragões.md', 'utf8');
 
         let pages = chapter_text.match(/^(##{1})\s+(.*)/gm)
 
-        if (c==0) {
-            pages_array[c] = 0
-            continue
-        }
+        // if (c==0) {
+        //     pages_array[c] = 0
+        //     continue
+        // }
 
         pages_array[c] = pages.length
 
@@ -49,6 +50,14 @@ const data = fs.readFileSync(__dirname+'/Cavernas AND Dragões.md', 'utf8');
                 page_text = pages[p] + chapter_text.split(pages[p])[1]
             }
 
+            if (p==0) {
+                let temp = pages[p]
+                temp = temp.replaceAll("*","").replaceAll("#","").substring(1,temp.length)
+
+                chapter_titles[c] = temp
+                
+            }
+
             //page_text = insertImages(page_text)
 
             fs.writeFileSync(__dirname+`/public/text-markdown/${c}-${p+1}.md`, page_text);
@@ -60,7 +69,9 @@ const data = fs.readFileSync(__dirname+'/Cavernas AND Dragões.md', 'utf8');
 
     let chapter_index = {
         chapter_count: chapter_count,
-        pages_array: pages_array
+        chapter_titles: chapter_titles,
+        pages_array: pages_array,
+
     }
 
     fs.writeFileSync(__dirname+`/public/chapter_index.json`, JSON.stringify(chapter_index));

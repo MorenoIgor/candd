@@ -1,6 +1,10 @@
-# **![][image1]**
 
-Versão 27/09/24
+
+# **Cavernas AND Dragões**
+
+## **Introdução**
+
+Versão 06/10/24
 
 Cavernas AND Dragões é um sistema de regras para RPGs de fantasia baseado nas regras da SRD 5.1. A ideia é emular a experiência de jogo proporcionada pelas regras originais, porém simplificando-as de modo a torná-las mais acessíveis e fáceis de serem utilizadas por novos jogadores e aqueles que procuram um conjunto de regras menos complexo.
 
@@ -387,11 +391,11 @@ O Nível de Tesouro (NT) de uma personagem representa seu poder aquisitivo, frut
 | Nível | Moedas | Itens |
 | :---- | :---- | :---- |
 | 0 | \- | \- |
-| 1 | Cobre | Miudezas Itens de qualidade baixa Serviços rápidos Armas leves |
-| 2 | Prata | Itens mundanos de qualidade padrão Hospedagem e consumo em estalagens e tavernas Serviços corriqueiros Provisões de viagem Armas médias Armaduras leves Escudos |
-| 3 | Eletro | Itens mundanos de qualidade superior ou escassos Animais de transporte Serviços especializados Armas pesadas Armaduras médias |
-| 4 | Ouro | Itens mágicos Bens de alta qualidade ou raros Meios de transporte de baixa capacidade Serviços exclusivos Armaduras pesadas |
-| 5 | Platina | Propriedades Meios de transporte de alta capacidade Itens raríssimos Serviços únicos ou de luxo |
+| 1 | Cobre | Miudezas, Itens de qualidade baixa, Serviços rápidos, Armas leves |
+| 2 | Prata | Itens mundanos de qualidade padrão, Hospedagem e consumo em estalagens e tavernas, Serviços corriqueiros, Provisões de viagem, Armas médias, Armaduras leves, Escudos |
+| 3 | Eletro | Itens mundanos de qualidade superior ou escassos, Animais de transporte, Serviços especializados, Armas pesadas, Armaduras médias |
+| 4 | Ouro | Itens mágicos, Bens de alta qualidade ou raros, Meios de transporte de baixa capacidade, Serviços exclusivos, Armaduras pesadas |
+| 5 | Platina | Propriedades, Meios de transporte de alta capacidade, Itens raríssimos, Serviços únicos ou de luxo |
 
 Durante uma aventura uma personagem pode realizar uma quantidade de transações monetárias igual ao seu NT, e o valor máximo de qualquer uma delas é também o mesmo nível. Caso gaste mais do que isso, seu NT é reduzido em 1 para cada nova transação. O NT não pode ficar abaixo de zero.
 
@@ -650,8 +654,9 @@ Uma criatura consegue atacar outras criaturas na mesma área com um ataque corpo
 
 Se um espaço for complicado de atravessar, seja por terreno irregular, perigos, altura, etc. trata-se de um terreno difícil. Passar por uma área de terreno difícil sempre pedirá um Teste a critério da Mestra. Numa falha a criatura não consegue passar pela área, encerrando seu movimento ali.
 
-| Formas de movimentação Nem todas as criaturas locomovem-se apenas pelo chão: dragões podem tanto andar quanto voar, e tritões movem-se apenas nadando. Um terreno difícil no solo pode ser facilmente ignorado por criaturas aladas, mas talvez um teto baixo torne uma área terreno difícil para locomoção aérea. Da mesma forma, pode ser impossível para uma criatura atingir certa área se ela não consegue se locomover por aquele tipo de terreno. |
+| Formas de movimentação |
 | :---- |
+| Nem todas as criaturas locomovem-se apenas pelo chão: dragões podem tanto andar quanto voar, e tritões movem-se apenas nadando. Um terreno difícil no solo pode ser facilmente ignorado por criaturas aladas, mas talvez um teto baixo torne uma área terreno difícil para locomoção aérea. Da mesma forma, pode ser impossível para uma criatura atingir certa área se ela não consegue se locomover por aquele tipo de terreno. |
 
 ### **Cobertura**
 

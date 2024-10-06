@@ -18,9 +18,10 @@ export default function BookContent({chapter,page}) {
     
     async function fetchData() {
       let file = '/text-markdown/'
-      if (page) {
+      if (page!=undefined) {
         file += `${chapter}-${page}.md`
-      } else {
+      } 
+      else {
         file += `${chapter}.md`
       }
       await fetch(file).then (
