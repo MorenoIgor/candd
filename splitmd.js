@@ -1,4 +1,8 @@
 var fs = require('fs');
+
+let chapter_count = 0
+let pages_array = []
+
 const data = fs.readFileSync(__dirname+'/Cavernas AND Dragões.md', 'utf8');
 
    // Define the regex for Markdown headers
@@ -9,6 +13,8 @@ const data = fs.readFileSync(__dirname+'/Cavernas AND Dragões.md', 'utf8');
 
    let chapter_text
    let page_text
+
+   chapter_count = chapters.length
 
     for (let c=0;c<chapters.length;c++) {
 
@@ -24,7 +30,12 @@ const data = fs.readFileSync(__dirname+'/Cavernas AND Dragões.md', 'utf8');
 
         let pages = chapter_text.match(/^(##{1})\s+(.*)/gm)
 
-        if (c==0) continue
+        if (c==0) {
+            pages_array[c] = 0
+            continue
+        }
+
+        pages_array[c] = pages.length
 
         page_text = chapter_text.split(pages[0])[0]
 
@@ -46,6 +57,13 @@ const data = fs.readFileSync(__dirname+'/Cavernas AND Dragões.md', 'utf8');
 
 
     }
+
+    let chapter_index = {
+        chapter_count: chapter_count,
+        pages_array: pages_array
+    }
+
+    fs.writeFileSync(__dirname+`/public/chapter_index.json`, JSON.stringify(chapter_index));
 
 function insertImages(text) {
 

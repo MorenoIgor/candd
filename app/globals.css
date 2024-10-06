@@ -149,6 +149,24 @@ fieldset {
   margin: auto;
 }
 
+.navControls {
+  margin-top: 20pt;
+  margin-bottom: 20pt;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.navClick {
+  width: 100%;
+  text-align: center;
+}
+
+.navClick:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 hr {
   border: 1px solid saddlebrown;
 }
