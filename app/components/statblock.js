@@ -2,8 +2,6 @@
 
 import { useState } from "react";
 
-import { renderToString } from 'react-dom/server'
-
 import {changeNumber} from "./utils.js"
 
 import MiniRoller from "./miniroller";
@@ -36,14 +34,13 @@ export default function StatBlock({stats}) {
     
 
     return (
-        <fieldset>
-            
-            <h3 className="statBlockName">{stats.nome} 
+        <main id="mainView">
+            <h2 className="statBlockName">{stats.nome} 
             {
                 stats.tier == 1 ? "" : ` (${tierTitle[stats.tier]})`
-            }</h3>
-            <img className="monsterImage" src="/art/mikoarc/Awakened Tree.png"></img>
-        <p>
+            }</h2>
+            <img className="monsterImage" src={`/art/mikoarc/${stats.imagem}.png`}></img>
+            <span className="monsterP">
           <span className="boldFont">Nível:</span> {stats.nivel} <br />
           <span className="boldFont">PA:</span> {
             paAtual == stats.pa ? stats.pa : `${paAtual}/${stats.pa}`
@@ -84,10 +81,10 @@ export default function StatBlock({stats}) {
           <span className="boldFont">Ataque:</span> +{stats.nivel} 
           <MiniRoller amount="1" die="d20" modifier={stats.nivel} /> ({stats.tamanho}{stats.arma}+{stats.nivel}) 
           <MiniRoller amount={stats.tamanho} die={stats.arma} modifier={stats.nivel} /> <br />
-          </p>
+          </span>
             {
                 stats.habilidades.map((hb,index) => (
-                    <p key={index}>
+                    <span className="monsterP" key={index}>
                     <span key = {hb.titulo} className="boldFont">{hb.titulo + ": "}</span>
                     {
                     breakText(hb.texto).map(
@@ -102,11 +99,13 @@ export default function StatBlock({stats}) {
                         
                     )
                     }
-                </p>
+                </span>
                 ))
             }
-    
-        </fieldset>
+        <span className="monsterP">
+            {stats.texto}
+        </span>
+        </main>
     )
 
 }

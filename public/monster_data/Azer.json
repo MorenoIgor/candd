@@ -1,0 +1,21 @@
+{
+    "nome": "Azer",
+    "nivel": 7,
+    "pa": 4,
+    "defesa": 17,
+    "vida": 26,
+    "resistencia": "",
+    "imunidade": "dano de fogo",
+    "vulnerabilidade": "dano de água",
+    "tamanho": 1,
+    "arma": "d10",
+    "tier": 1,
+    "habilidades": [
+        {
+        "titulo": "Fogo",
+        "texto": "Causa 1d10 de dano automático a quem se aproximar."
+        }
+    ],
+    "imagem": "Azer",
+    "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit."
+}

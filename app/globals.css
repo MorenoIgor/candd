@@ -19,10 +19,16 @@
 }
 
 body, html {
-  background-color: whitesmoke;
+  background-color: beige;
   font-family: Asul;
   margin: 0;
   user-select: none;
+  background-image: url('/layout/bg_mainview.png');
+  background-size: 95%;
+  background-position: center;
+  background-repeat: repeat-y;
+  max-width: 800px;
+  margin: auto;
 }
 
 .bodyContent {
@@ -33,17 +39,19 @@ body, html {
 table {
   width: 100%;
   border-collapse: collapse;
-  border: 2pt solid #aaaaaa;
+  border: 2pt solid black;
+  margin-left: 10pt;
 }
 
 thead {
-  background-color: #aaaaaa;
+  background-color: black;
 }
 
 thead th {
   padding-top: 4pt;
   padding-bottom: 4pt;
   font-size: 12pt;
+  color: white;
 }
 
 tbody tr:nth-child(even) td {
@@ -62,17 +70,19 @@ tbody td {
   border: 0px;
   border-right: 2pt;
   border-style: solid;
-  border-color: #aaaaaa;
+  border-color: black;
 }
 
 
 
 fieldset {
-  border: 4pt solid saddlebrown;
+  margin: auto;
   margin-bottom: 10pt;
   margin-top: 10pt;
-  background-color: whitesmoke;
-  width: 90%;
+  /* background-color: whitesmoke;
+  border: 4pt solid saddlebrown; */
+  border: 0;
+  width: 95%;
   font-size: 14pt;
 }
 
@@ -81,6 +91,12 @@ fieldset {
   font-family: Simpleness;
   margin-bottom: 8pt;
   margin-top: 6pt;
+}
+
+.monsterP {
+  display: block;
+  margin-top: 10pt;
+  font-size: 14pt;
 }
 
 .halfWidth {
@@ -141,26 +157,46 @@ fieldset {
   width: 66%;
   margin: auto;
   display: block;
+  margin-bottom: 20pt;
 }
 
 #mainView {
   width: 85%;
-  max-width: 700px;
+  height: 100%;
+  min-height: 100%;
   margin: auto;
+  margin-top: 0;
+  padding-top: 20pt;
   padding-bottom: 60pt;
 }
 
+#mainView a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#mainView li:hover {
+  color: crimson;
+}
+
+#mainView h1, #mainView h2, #mainView h3 {
+  font-family: Simpleness;
+  margin: 10pt;
+}
+
+#mainView p {
+  margin-left: 10pt;
+}
+
 .navControls {
-  margin-top: 20pt;
+  margin-top: 40pt;
   margin-bottom: 20pt;
   width: 100%;
   display: flex;
   flex-direction: row;
-  background-color: rgba(255,255,255,0.7);
-  position: fixed;
   bottom: 10pt;
-  height: 20pt;
   padding-top: 5pt;
+  padding-bottom: 5pt;
 }
 
 .navClick {
@@ -171,6 +207,61 @@ fieldset {
 .navClick:hover {
   cursor: pointer;
   text-decoration: underline;
+}
+
+#sideBar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  padding: 15pt;
+  padding-top: 0;
+  color: white;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  filter: drop-shadow(2pt 2pt 4pt black);
+  background-image: url('/layout/bg_menu.png');
+  background-size: 100%;
+  background-position: right;
+  background-repeat: repeat-y;
+}
+
+#sideBar a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+#sideBar a:hover {
+  color: crimson;
+}
+
+#sideBar p {
+  margin-top: 16pt;
+}
+
+#menuButton {
+  position: fixed;
+  right: 10pt;
+  bottom: 10pt;
+  text-align: center;
+  cursor: pointer;
+}
+
+#menuButton img {
+  width: 96px;
+}
+
+.pageLink {
+  margin-left: 6pt;
+}
+
+.chapterLink {
+  font-family: Simpleness;
+}
+
+.invisible {
+  display: none;
 }
 
 hr {

@@ -1,18 +1,20 @@
 "use client"
 
-import MiniRoller from "./components/miniroller";
+import MiniRoller from "../components/miniroller";
+
+import MainMenu from "../components/mainmenu";
 
 import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 
-import {changeNumber} from "./components/utils.js"
+import {changeNumber} from "../components/utils.js"
 
 let interval1
 
 export default function MonsterBuilder() {
 
-  //clearInterval(interval1)
+  const router = useRouter()
 
-  //interval1 = setInterval(atualizarVida,100)
 
   const [nivel,setNivel] = useState(1)
   const [tamanho,setTamanho] = useState(1)
@@ -32,6 +34,12 @@ export default function MonsterBuilder() {
   let pa = Math.round(nivel/2) + pontoAcaoAdicional[tier]
   const [paAtual,setPaAtual] = useState(pa)
 
+  function navigate(chapter, page) {
+    window.localStorage.setItem("CANDD_page",page.toString())
+    window.localStorage.setItem("CANDD_chapter",chapter.toString())
+    router.push("/")
+  }
+
   function atualizarVida(obj) {
     setVidaAtual(Math.floor((vidaBaseTable[parseInt(obj.tm)] + (parseInt(obj.vg) * parseInt(obj.nv))) * vidaMultTable[parseInt(obj.ti)]))
   }
@@ -42,7 +50,8 @@ export default function MonsterBuilder() {
 
   return (
     <main id="mainView">
-
+      <MainMenu navigateFunction={navigate} />
+        <h2>Criador de Monstros</h2>
     <div className="hor-container">
     
     <fieldset className="halfWidth" onChange={
@@ -62,7 +71,7 @@ export default function MonsterBuilder() {
     }>
       <h3 className="monsterCreatorFieldTitle">Nível</h3>
 
-      <input className="numberDoubleDigit" type="number" min="1" max="10" defaultValue={nivel} />
+      <input className="numberDoubleDigit" type="number" min="1" max="10" value={nivel} readOnly />
       <button className={'plusMinusButton ' + (nivel == 1 ? 'disabledButton' : '')}  onClick = {
        () => {
           setNivel(changeNumber(nivel,-1,1,10))
@@ -158,7 +167,7 @@ export default function MonsterBuilder() {
     }>
       <h3 className="monsterCreatorFieldTitle">Defesa</h3>
 
-      <input className="numberDoubleDigit"  type="number" min="10" max="20" defaultValue={defesa} />
+      <input className="numberDoubleDigit"  type="number" min="10" max="20" value={defesa} readOnly />
       <button className={'plusMinusButton ' + (defesa == 10 ? 'disabledButton' : '')} onClick = {
        () => {
           let def = changeNumber(defesa,-1,10,20)
@@ -217,9 +226,9 @@ export default function MonsterBuilder() {
     </fieldset>
 
   </div>
-    
+    <hr />
     <fieldset>
-    <p>
+    <span className="monsterP">
       <span className="boldFont">Nível:</span> {nivel} <br />
       <span className="boldFont">PA:</span> {
             paAtual == pa ? pa : `${paAtual}/${pa}`
@@ -258,7 +267,7 @@ export default function MonsterBuilder() {
       Contudo, se causar dano automático, este dano é apenas <span className="boldFont">1d10</span> <MiniRoller amount="1" die="d10" modifier="0" />.
       Se for uma Magia, ela é de <span className="boldFont">nível {nivel}</span>.
       A Dificuldade para evitar os efeitos é <span className="boldFont">{10+parseInt(nivel)}</span>.
-    </p>
+    </span>
     </fieldset>
 
     
