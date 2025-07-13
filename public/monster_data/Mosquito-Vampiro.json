@@ -1,0 +1,22 @@
+{
+  "nome": "Mosquito-Vampiro",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 14,
+  "vida": 6,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Picada",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "MosquitoVampiro",
+  "habilidades": [
+    {
+      "titulo": "Sugar Sangue",
+      "texto": "Uma vez que o Mosquito-Vampiro acerta um ataque de picada ele se prenderá ao alvo, causando 1d10 de dano adicional a cada novo turno do alvo, que deve fazer um Teste de Força com Dificuldade 11 para remover o Mosquito-Vampiro e evitar o dano."
+    }
+  ]
+}

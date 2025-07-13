@@ -1,0 +1,22 @@
+{
+  "nome": "Enxame de Morcegos",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 12,
+  "vida": 6,
+  "resistencia": "todos",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Mordida",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "EnxamedeMorcegos",
+  "habilidades": [
+    {
+      "titulo": "Enxame",
+      "texto": "O Enxame de Morcegos ataca automaticamente todos os alvos na mesma área que ele, sem gastar PA."
+    }
+  ]
+}

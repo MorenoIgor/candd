@@ -1,0 +1,26 @@
+{
+  "nome": "Horror Tentacular",
+  "nivel": 5,
+  "pa": 3,
+  "defesa": 20,
+  "vida": 25,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Tentáculos, Mordida",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "HorrorTentacular",
+  "habilidades": [
+    {
+      "titulo": "Camuflagem",
+      "texto": "Enquanto o Horror Tentacular estiver parado, é indistinguível de uma formação rochosa comum."
+    },
+    {
+      "titulo": "Constrição",
+      "texto": "Ao sofrer um ataque de tentáculo do Horror Tentacular o alvo deve fazer um Teste de Força ou Destreza com Dificuldade 15. Em uma falha o alvo fica preso e o Horror Tentacular terá Vantagem em novos ataques contra este alvo até que ele se solte, repetindo o Teste em seu turno. O Horror Tentacular pode prender até seis alvos desta forma."
+    }
+  ]
+}

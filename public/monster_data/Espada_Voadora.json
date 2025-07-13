@@ -1,0 +1,22 @@
+{
+  "nome": "Espada Voadora",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 17,
+  "vida": 6,
+  "resistencia": "",
+  "imunidade": "veneno, psíquico",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Espada",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "EspadaVoadora",
+  "habilidades": [
+    {
+      "titulo": "Camuflagem",
+      "texto": "Enquanto a Espada Voadora estiver parada, é indistinguível de uma espada comum."
+    }
+  ]
+}

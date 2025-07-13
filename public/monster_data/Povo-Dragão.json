@@ -1,0 +1,22 @@
+{
+  "nome": "Povo-Dragão",
+  "nivel": 4,
+  "pa": 2,
+  "defesa": 15,
+  "vida": 17,
+  "resistencia": "",
+  "imunidade": "fogo",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Espada",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "PovoDragão",
+  "habilidades": [
+    {
+      "titulo": "Sopro de Fogo",
+      "texto": "Um alvo deve fazer um Teste de Destreza com Dificuldade 14. Em uma falha, sofre 4d10 de dano de fogo."
+    }
+  ]
+}

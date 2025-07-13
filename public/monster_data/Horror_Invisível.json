@@ -1,0 +1,22 @@
+{
+  "nome": "Horror Invisível",
+  "nivel": 6,
+  "pa": 3,
+  "defesa": 14,
+  "vida": 17,
+  "resistencia": "armas não-mágicas",
+  "imunidade": "veneno",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Pancada",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "HorrorInvisível",
+  "habilidades": [
+    {
+      "titulo": "Invisível",
+      "texto": "O Horror Invisível é permanentemente invisível. Quaisquer ataques contra ele têm Desvantagem."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "nome": "Povo-Sereia",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 11,
+  "vida": 6,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Lança",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "PovoSereia",
+  "habilidades": [
+    {
+      "titulo": "Canção Encantadora",
+      "texto": "Um alvo deve fazer um Teste de Sabedoria com Dificuldade 11. Em uma falha ele fica imediatamente encantado, incapaz de agir por conta própria, usando suas ações para se aproximar do Povo-Sereia. Em seus próximo turnos ele deve repetir o Teste. Se tiver sucesso o efeito se encerra."
+    }
+  ]
+}

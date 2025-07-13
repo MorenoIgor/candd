@@ -1,0 +1,22 @@
+{
+  "nome": "Bruxa do Mar",
+  "nivel": 2,
+  "pa": 1,
+  "defesa": 14,
+  "vida": 11,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Garras",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "BruxadoMar",
+  "habilidades": [
+    {
+      "titulo": "Aparência Horripilante",
+      "texto": "Um alvo deve fazer um Teste de Sabedoria com Dificuldade 12. Em uma falha ele fica imediatamente paralisado, incapaz de agir. Em seu próximo turno deve repetir o Teste. Se tiver sucesso o efeito se encerra. Se falhar, cai imediatamente com Vida 0."
+    }
+  ]
+}

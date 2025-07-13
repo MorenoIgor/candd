@@ -1,0 +1,30 @@
+{
+  "nome": "Bruxa das Brumas",
+  "nivel": 5,
+  "pa": 3,
+  "defesa": 17,
+  "vida": 20,
+  "resistencia": "gelo, fogo, armas que não sejam feitas de prata",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Garras",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "BruxadasBrumas",
+  "habilidades": [
+    {
+      "titulo": "Conjuradora Arcana",
+      "texto": "a Bruxa das Brumas pode conjurar Magias Arcanas até o nível 5. A Dificuldade para evitar seus efeitos é 15."
+    },
+    {
+      "titulo": "Ilusão",
+      "texto": "A Bruxa das Brumas assume uma aparência diferente. Um Teste de Sabedoria com Dificuldade 15, ou interação física com a Bruxa das Brumas revela a farsa."
+    },
+    {
+      "titulo": "Etérea",
+      "texto": "A Bruxa das Brumas assume uma forma semifísica. Ataques contra ela têm Desvantagem até que ela sofra dano."
+    }
+  ]
+}

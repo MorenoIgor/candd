@@ -1,0 +1,22 @@
+{
+  "nome": "Centauro",
+  "nivel": 2,
+  "pa": 1,
+  "defesa": 12,
+  "vida": 14,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Lança, Arco, Coice",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Centauro",
+  "habilidades": [
+    {
+      "titulo": "Galope",
+      "texto": "Se o Centauro se moveu para outra área no combate para atacar, os alvos sofrem 1d10 de dano adicional."
+    }
+  ]
+}

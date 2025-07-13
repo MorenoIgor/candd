@@ -1,0 +1,22 @@
+{
+  "nome": "Goblin-Peludo",
+  "nivel": 4,
+  "pa": 2,
+  "defesa": 16,
+  "vida": 17,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Maça, Lança",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "GoblinPeludo",
+  "habilidades": [
+    {
+      "titulo": "Ataque Brutal",
+      "texto": "Um alvo deve fazer um Teste de Destreza com Dificuldade 14. Em uma falha é atingido, sofrendo 4d10 de dano."
+    }
+  ]
+}

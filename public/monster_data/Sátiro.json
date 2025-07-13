@@ -1,0 +1,22 @@
+{
+  "nome": "Sátiro",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 14,
+  "vida": 6,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Espada, Arco, Chifres",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Sátiro",
+  "habilidades": [
+    {
+      "titulo": "Cabeçada",
+      "texto": "Um alvo deve fazer um Teste de Força com Dificuldade 11. Em uma falha ele é arremessado para outra área de combate, sofrendo 1d10 dividido pela metade de dano."
+    }
+  ]
+}

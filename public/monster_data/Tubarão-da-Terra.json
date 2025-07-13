@@ -1,0 +1,22 @@
+{
+  "nome": "Tubarão-da-Terra",
+  "nivel": 5,
+  "pa": 3,
+  "defesa": 17,
+  "vida": 35,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Mordida",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "TubarãodaTerra",
+  "habilidades": [
+    {
+      "titulo": "Salto Mortal",
+      "texto": "Um alvo deve fazer um Teste de Força ou Destreza com Dificuldade 15. Em uma falha ele sofre 2d10 de dano e é derrubado."
+    }
+  ]
+}

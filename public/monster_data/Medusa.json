@@ -1,0 +1,26 @@
+{
+  "nome": "Medusa",
+  "nivel": 6,
+  "pa": 3,
+  "defesa": 15,
+  "vida": 23,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Espada, Arco, Cobra",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Medusa",
+  "habilidades": [
+    {
+      "titulo": "Veneno",
+      "texto": "Os ataques de cobra da Medusa causam 1d10 de dano de veneno adicional ao alvo."
+    },
+    {
+      "titulo": "Olhar Petrificante",
+      "texto": "Um alvo deve fazer um Teste de Constituição com Dificuldade 16. Em uma falha ele sofre 3d10 de dano. Se isto o levar a 0 de Vida ou menos, o alvo é transformado em pedra."
+    }
+  ]
+}

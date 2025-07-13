@@ -1,0 +1,22 @@
+{
+  "nome": "Gárgula",
+  "nivel": 2,
+  "pa": 1,
+  "defesa": 15,
+  "vida": 11,
+  "resistencia": "armas não-mágicas",
+  "imunidade": "veneno",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Garras, Mordida",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Gárgula",
+  "habilidades": [
+    {
+      "titulo": "Camuflagem",
+      "texto": "Enquanto a Gárgula estiver parada, é indistinguível de uma estátua comum."
+    }
+  ]
+}

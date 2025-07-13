@@ -1,0 +1,22 @@
+{
+  "nome": "Dinossauro",
+  "nivel": 8,
+  "pa": 4,
+  "defesa": 13,
+  "vida": 60,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 3,
+  "arma": "Mordida, Cauda",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Dinossauro",
+  "habilidades": [
+    {
+      "titulo": "Colossal",
+      "texto": "Ataques corpo-a-corpo contra o Dinossauro são feitos com Desvantagem."
+    }
+  ]
+}

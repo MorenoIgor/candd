@@ -1,0 +1,22 @@
+{
+  "nome": "Troll",
+  "nivel": 5,
+  "pa": 3,
+  "defesa": 15,
+  "vida": 35,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "fogo",
+  "tamanho": 2,
+  "arma": "Garras, Mordida",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Troll",
+  "habilidades": [
+    {
+      "titulo": "Regeneração",
+      "texto": "O Troll recupera 1d10 de Vida a cada nova rodada, contanto que tenha pelo menos 1 de Vida. Este efeito é cancelado se o Troll sofrer dano de fogo no combate."
+    }
+  ]
+}

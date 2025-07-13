@@ -1,0 +1,22 @@
+{
+  "nome": "Touro-Blindado",
+  "nivel": 4,
+  "pa": 2,
+  "defesa": 19,
+  "vida": 26,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Chifres, Cascos",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "TouroBlindado",
+  "habilidades": [
+    {
+      "titulo": "Bafo Petrificante",
+      "texto": "Um alvo deve fazer um Teste de Constituição com Dificuldade 14. Em uma falha ele sofre 2d10 de dano. Se isto o levar a 0 de Vida ou menos, o alvo é transformado em pedra."
+    }
+  ]
+}

@@ -4,7 +4,7 @@
 
 ## **Introdução**
 
-Versão 28/10/24
+Versão 28/02/25
 
 Cavernas AND Dragões é um sistema de regras para RPGs de fantasia baseado nas regras da SRD 5.1. A ideia é emular a experiência de jogo proporcionada pelas regras originais, porém simplificando-as de modo a torná-las mais acessíveis e fáceis de serem utilizadas por novos jogadores e aqueles que procuram um conjunto de regras menos complexo.
 
@@ -46,7 +46,7 @@ Toda personagem tem seis Atributos: Força (FOR), Destreza (DES), Constituição
 
 Força representa poder muscular, enquanto Destreza significa agilidade e habilidade com as mãos e Constituição governa saúde e resistência.
 
-Inteligência representa a capacidade intelectual e dedutiva da personagem, enquanto Sabedoria significa o conhecimento adquirido com experiência. Carisma mede o magnetismo social inato da personagem.
+Inteligência representa a capacidade intelectual e dedutiva da personagem, enquanto Sabedoria significa a percepção e o conhecimento adquirido com a vivência. Carisma mede o magnetismo social inato da personagem.
 
 Todos os Atributos começam com um valor 0\. Distribua 10 pontos entre todos os Atributos, sendo 3 o valor máximo possível neste momento. É possível reduzir o valor 0 de um Atributo para \-1 ou \-2 em troca da mesma quantidade de pontos positivos para outro Atributo, respeitando o limite do valor 3\.
 
@@ -56,19 +56,13 @@ Todos os Atributos começam com um valor 0\. Distribua 10 pontos entre todos os 
 
 A Origem é a história de como a personagem iniciou sua carreira de aventureira. Descreva brevemente sua Ancestralidade e Antecedentes.
 
-**Ancestralidade** representa a raça fantástica, etnia ou identidade cultural da personagem. Descreva essa Ancestralidade e decida se ela fornecerá bônus de Atributo ou uma Habilidade Única: escolha apenas um deles.
+**Ancestralidade** representa a raça fantástica, etnia ou identidade cultural da personagem. Descreva essa Ancestralidade e crie uma Habilidade Única.
 
-**Bônus:** distribua 2 pontos adicionais de Atributo, seja \+2 em um Atributo ou \+1 em dois Atributos diferentes. Estes modificadores podem levar o valor de um Atributo até 5\.
+**Habilidade Única:** descreva uma capacidade especial da personagem em uma ou duas palavras, seja esta habilidade sobrenatural ou não. Ela funcionará como Magia em termos de regras.
 
-*Ex.: Uma personagem que é uma anã das montanhas poderia ter \+2 em CON dada sua resistência.*
+*Ex.: Uma personagem anã poderia ter o poder especial **Forma de Pedra** para evitar sofrer dano enrijecendo seu corpo de forma mágica.*
 
-*Já uma humana indígena das matas fechadas, por exemplo, poderia ter \+1 em DES pela agilidade e \+1 em SAB por sua esperteza com a natureza.*
-
-**Habilidade Única:** descreva uma capacidade especial da personagem em uma ou duas palavras, seja esta habilidade sobrenatural ou não. Ela funcionará como Magia.
-
-*Ex.: A mesma personagem anã poderia, no lugar do bônus em CON, ter o poder especial **Forma de Pedra** para evitar sofrer dano enrijecendo seu corpo de forma mágica.*
-
-*A personagem indígena poderia ter a habilidade **Esconder-se nas Sombras** para desaparecer enquanto caça, embora seja apenas seu treinamento e não um efeito mágico.*
+*Uma personagem criada nas matas poderia ter a habilidade **Esconder-se nas Sombras** para desaparecer enquanto caça, embora seja apenas seu treinamento e não um efeito mágico.*
 
 Os **Antecedentes** resumem o que a personagem fazia antes de se aventurar. Escolha duas situações nas quais a personagem teria Vantagem dado seu histórico e que não sejam relativas a combate ou poderes sobrenaturais. Estas Vantagens tornam mais provável o sucesso em Testes nos quais essas características são relevantes.
 
@@ -81,6 +75,28 @@ Os **Antecedentes** resumem o que a personagem fazia antes de se aventurar. Esco
 
 * *Vantagem em consertar objetos*  
 * *Vantagem em negociar equipamento*
+
+## **Dados de Habilidade**
+
+Todas as personagens possuem uma quantidade inicial de Dados de Habilidade (DH) igual ao valor do Atributo Principal da Classe (ver adiante). Personagens com o Atributo Principal da Classe menor ou igual a 0 recebem um único DH inicial. Os DH iniciam como d4 e progridem de acordo com o nível da personagem.
+
+### **Uso dos Dados de Habilidade**
+
+DH são utilizados pelas diversas habilidades que as personagens possuem: role o dado e use seu resultado para calcular o efeito. A não ser que uma regra diga o contrário, apenas um DH pode ser usado por vez.
+
+Quando uma Habilidade que use DH modificar uma outra rolagem, seu uso deve ser declarado antes da Mestra revelar o resultado.
+
+### **Bônus em Testes**
+
+Fora seu uso em habilidades, os DH podem ser rolados para adicionar seu resultado a qualquer Teste do Atributo Principal da Classe, incluindo ataques.
+
+### **Recuperação de Vida**
+
+Dados de Habilidade também são rolados para recuperar Pontos de Vida em um descanso curto durante aventuras: role o DH e some o valor de CON, com mínimo 1\.
+
+### **Ataques Extras**
+
+Seu último uso é para conferir ataques extras em um combate: um DH pode ser gasto para conferir mais um ataque à personagem quando usar a ação Atacar. A quantidade máxima de ataques extras que uma personagem pode realizar por rodada é igual ao seu nível: uma personagem de nível 1 pode executar um único ataque extra, por exemplo.
 
 ## **Classe**
 
@@ -130,7 +146,7 @@ Bárbaros são combatentes selvagens que aterrorizam seus inimigos com seus feit
 
 **Resistência:** o bárbaro pode reduzir o resultado do DH do dano sofrido, podendo zerá-lo.
 
-**Fúria:** gastando um DH por rodada o bárbaro pode entrar em um estádio de fúria, recebendo Vantagem em ataques e Testes de Força, mas recebendo Desvantagem em quaisquer outros Testes. Ataques contra o bárbaro também têm Vantagem enquanto ela estiver em fúria.
+**Fúria:** gastando um DH por rodada o bárbaro pode entrar em um estádio de fúria, recebendo Vantagem em ataques e Testes de Força. Ataques contra o bárbaro têm Vantagem enquanto ele estiver em fúria.
 
 ---
 
@@ -166,7 +182,7 @@ Caçadores são rastreadores e combatentes dos ermos, especializados em caçar m
 
 **Magia Natural:** o caçador consegue conjurar Magias Naturais usando seus DH.
 
-**Ataque Certeiro:** todo ataque bem-sucedido do caçador que tenha usado um DH para melhorar o resultado é considerado um crítico se o somatório total da rolagem for igual ou maior a 20\.
+**Ataque Certeiro:** todo ataque do caçador é considerado um crítico se o resultado no dado for 18 ou maior.
 
 ---
 
@@ -262,7 +278,7 @@ Inventores são criadores de maravilhas mecanomágicas. Viajam pelo mundo em bus
 
 ### **Ladino**
 
-Ladinos são ladrões, contraventores, malandros e toda sorte de especialistas à margem da lei. Viajam pelo mundo em busca de tesouros e suas habilidades diversas podem ser a diferença entre riquezas e algemas.
+Ladinos são ladrões, contraventores, espiões e toda sorte de especialistas à margem da lei. Viajam pelo mundo em busca de tesouros e suas habilidades diversas podem ser a diferença entre riquezas e algemas.
 
 **Atributo Principal:** Destreza
 
@@ -332,11 +348,15 @@ Sacerdotes são representantes dos deuses, conjuradores de magias divinas milagr
 
 ---
 
-## **Dados de Habilidade**
+## **Níveis Seguintes**
 
-Todas as personagens possuem uma quantidade inicial de Dados de Habilidade (DH) igual ao valor do Atributo Principal da Classe. Personagens com o Atributo Principal da Classe menor ou igual a 0 recebem um único DH inicial.
+Sempre que um arco se concluir na história, a Mestra pode permitir que as personagens subam de nível. Similarmente, uma personagem pode subir de nível independentemente do grupo caso um arco pessoal tenha se fechado.
 
-Os DH iniciam como um d4 e progridem de acordo com o nível da personagem, conforme a tabela a seguir. Toda vez que a personagem passar de nível ela recebe mais um dado.
+São 10 níveis totais, com a tabela de Dados de Habilidade indicando um Patamar de quais tipos de aventuras são geralmente esperadas para cada conjunto de níveis.
+
+### **Dados de Habilidade**
+
+Toda vez que a personagem passar de nível ela recebe mais um dado, além do aumento de categoria do DH.
 
 *Ex.: Uma personagem de nível 2 com 4d4 DH, ao atingir o nível 3 passará a ter 5d6 DH, visto que o valor do dado aumentou e ela recebeu um dado extra.*
 
@@ -350,35 +370,17 @@ Os DH iniciam como um d4 e progridem de acordo com o nível da personagem, confo
 | 7-8 | Lendário | d10 |
 | 9-10 | Épico | d12 |
 
-DH são utilizados pelas diversas habilidades que as personagens possuem: role o dado e use seu resultado para calcular o efeito. A não ser que uma regra diga o contrário, apenas um DH pode ser usado por vez.
-
-Quando uma Habilidade que use DH modificar uma outra rolagem, seu uso deve ser declarado antes da Mestra revelar o resultado.
-
-Fora seu uso em habilidades, os DH podem ser rolados para adicionar seu resultado a qualquer Teste do Atributo Principal da Classe, incluindo ataques, e também são rolados para recuperar Pontos de Vida em um descanso curto.
-
-Seu último uso é para conferir ataques extras em um combate: um DH pode ser gasto para conferir mais um ataque à personagem quando usar a ação Atacar. A quantidade máxima de ataques extras que uma personagem pode realizar por rodada é igual ao seu nível: uma personagem de nível 1 pode executar um único ataque extra, por exemplo.
-
-## **Níveis Seguintes**
-
-Sempre que um arco se concluir na história, a Mestra pode permitir que as personagens subam de nível. Similarmente, uma personagem pode subir de nível independentemente do grupo caso um arco pessoal tenha se fechado.
-
-São 10 níveis totais, com a tabela de Dados de Habilidade indicando um Patamar de quais tipos de aventuras são geralmente esperadas para cada conjunto de níveis.
-
-### **Dados de Habilidade**
-
-Como explicado anteriormente, as personagens recebem novos DH conforme sobem de nível, além do dado aumentar de categoria.
-
 ### **Pontos de Vida**
 
 Ao alcançar um novo nível a personagem ganha também mais Pontos de Vida. A Jogadora rola o DH equivalente ao nível atingido e compara o resultado com o valor de CON: o maior valor entre eles é a quantidade de Pontos de Vida adicionais que a personagem receberá em sua quantidade máxima de Vida.
 
 ### **Pontos de Atributo, Vínculo Mágico e Vantagens**
 
-Sempre que uma personagem atingir um novo Patamar (níveis 3, 5, 7 e 9\) a Jogadora ganha 2 pontos. Ela pode gastar um ponto para aumentar o valor de um Atributo em 1, representando a evolução dada a experiência da personagem como aventureira. O valor máximo de um Atributo é 5\.
+Sempre que uma personagem atingir um novo Patamar (níveis 3, 5, 7 e 9\) a Jogadora ganha 2 pontos. Ela pode gastar um ponto para aumentar o valor de um Atributo em 1, representando a evolução dada a experiência da personagem como aventureira. Não é possível gastar os 2 pontos num único Atributo, e o valor máximo que um Atributo pode atingir é 5\.
 
 No lugar de um Atributo a Jogadora pode optar por usar os pontos ganhos para aumentar o nível de um ou mais Itens Mágicos que ela possuir, o que é chamado de Vínculo Mágico. Cada ponto gasto aumenta o nível do Item em 1\.
 
-Além disso a Jogadora pode criar uma nova Vantagem para a personagem, de forma similar aos Antecedentes, desde que esta nova Vantagem reflita alguma habilidade que a personagem aperfeiçoou nos níveis anteriores.
+Além disso a Jogadora pode, gratuitamente, criar uma nova Vantagem para a personagem, de forma similar aos Antecedentes, desde que esta nova Vantagem reflita alguma habilidade que a personagem aperfeiçoou nos níveis anteriores.
 
 # **Equipamento**
 
@@ -388,22 +390,65 @@ Toda personagem inicia sua carreira com uma arma e uma armadura à sua escolha. 
 
 O Nível de Tesouro (NT) de uma personagem representa seu poder aquisitivo, fruto de tesouro encontrado, pagamentos recebidos, etc. Cada nível também representa o preço de itens e serviços dada sua raridade e qualidade. Existem seis NT:
 
-| Nível | Moedas | Itens |
-| :---- | :---- | :---- |
-| 0 | \- | \- |
-| 1 | Cobre | Miudezas, Itens de qualidade baixa, Serviços rápidos, Armas leves |
-| 2 | Prata | Itens mundanos de qualidade padrão, Hospedagem e consumo em estalagens e tavernas, Serviços corriqueiros, Provisões de viagem, Armas médias, Armaduras leves, Escudos |
-| 3 | Eletro | Itens mundanos de qualidade superior ou escassos, Animais de transporte, Serviços especializados, Armas pesadas, Armaduras médias |
-| 4 | Ouro | Itens mágicos, Bens de alta qualidade ou raros, Meios de transporte de baixa capacidade, Serviços exclusivos, Armaduras pesadas |
-| 5 | Platina | Propriedades, Meios de transporte de alta capacidade, Itens raríssimos, Serviços únicos ou de luxo |
+### **Itens por Nível de Tesouro**
 
-Durante uma aventura uma personagem pode realizar uma quantidade de transações monetárias igual ao seu NT, e o valor máximo de qualquer uma delas é também o mesmo nível. Caso gaste mais do que isso, seu NT é reduzido em 1 para cada nova transação. O NT não pode ficar abaixo de zero.
+**Nível 0:** Nenhum
 
-*Ex.: Uma personagem com Nível de Tesouro Eletro (3) pode adquirir 3 itens de preço máximo também igual a Eletro durante uma aventura: todos os itens podem custar este preço ou qualquer combinação de Prata ou Cobre, já que são abaixo de Eletro.*
+**Nível 1 (Cobre):** 
 
-*Ela decide então consertar suas botas (serviço rápido, Cobre), comprar uma espada (arma média, Prata) e também um cavalo (animal de transporte, Eletro). Contudo seu escudo foi danificado num combate logo depois, e ela acaba precisando comprar outro (Prata), o que reduz seu NT em 1, ficando em Prata.* 
+* Miudezas  
+* Itens de qualidade baixa  
+* Serviços rápidos  
+* Armas leves
 
-*Pouco tempo depois um informante cobrou Prata pelos rumores sobre os ataques que aconteceram na cidade. A personagem já gastou além do limite como visto acima, mas ainda tem NT Prata. Ela consegue pagar, mas seu NT é reduzido para Cobre. É bom que ela encontre tesouro, pois da próxima vez seu NT será reduzido para… nada\!*
+**Nível 2 (Prata):**
+
+* Itens mundanos de qualidade padrão  
+* Hospedagem e consumo em estalagens e tavernas  
+* Serviços corriqueiros  
+* Provisões de viagem  
+* Armas médias  
+* Armaduras leves  
+* Escudos
+
+**Nível 3 (Eletro):**
+
+* Itens mundanos de qualidade superior ou escassos  
+* Animais de transporte  
+* Serviços especializados  
+* Armas pesadas  
+* Armaduras médias
+
+**Nível 4 (Ouro):** 
+
+* Itens mágicos  
+* Bens de alta qualidade ou raros  
+* Meios de transporte de baixa capacidade  
+* Serviços exclusivos  
+* Armaduras pesadas
+
+**Nível 5 (Platina):**
+
+* Propriedades  
+* Meios de transporte de alta capacidade  
+* Itens raríssimos  
+* Serviços únicos ou de luxo
+
+Uma personagem pode fazer compras, contratar serviços ou efetuar pagamentos cujo valor máximo é o seu NT.
+
+Para cada transação a jogadora deve rolar um d6: um resultado acima do NT atual faz com que o NT seja reduzido em um, minando os recursos da personagem. 
+
+Jogadoras podem decidir juntar seus tesouros para custear algo com NT maior. Considere que duas partes do mesmo NT resultam num NT acima: duas personagens com NT Ouro podem adquirir um item de custo Platina, por exemplo, assim como uma personagem com NT Ouro e outras duas com NT Prata poderiam fazer a mesma transação. Todas as Jogadoras devem rolar os dados após a transação normalmente.
+
+*Ex.: Uma personagem com Nível de Tesouro Eletro (3) pode adquirir quaisquer itens de preço Eletro ou qualquer combinação de Prata ou Cobre, já que são abaixo de Eletro.*
+
+*Ela decide então consertar suas botas (serviço rápido, Cobre), comprar uma espada (arma média, Prata) e também um cavalo (animal de transporte, Eletro). Ela rola os dados, conseguindo um 1, 3 e 5\. Com este último resultado seu NT é reduzido para Prata (2).*
+
+ *Contudo seu escudo foi danificado num combate logo depois, e ela acaba precisando comprar outro (Prata). Ao rolar os dados, conseguiu um 2\. Ufa, o NT se manteve.*
+
+*Pouco tempo depois um informante cobrou Ouro pelos rumores sobre os ataques que aconteceram na cidade. Juntando com outra personagem de NT Prata, conseguiram pagar o informante. Logo após, rolou 4\. O NT da personagem agora é Cobre (1).*
+
+ *É bom que ela encontre tesouro, pois se precisar gastar mais seu NT poderá ser reduzido para… nada\!*
 
 Tesouro encontrado em aventuras ou recebido como pagamento listará sempre seu nível, de Cobre a Platina. Uma personagem que receba este tesouro sozinha eleva seu NT a este novo nível instantaneamente, se o NT atual for menor. Caso a personagem receba tesouro do mesmo NT que já possui, ela aumenta seu NT em 1\.
 
@@ -425,7 +470,7 @@ Para dividir o tesouro entre mais personagens, considere que cada tesouro recebi
 | Média | d8/d10 | Bordão, lança, arco longo, machado, espada longa, rapieira, cimitarra, sabre, besta |
 | Pesada | d12 | Clava, glaive, machado de batalha, espada larga, lança de justa, malho, pique, arco composto, besta pesada |
 
-**Armas Leves:** Permitem um ataque adicional por rodada, sem custo. Este ataque não conta para o limite de ataques extras por nível.
+**Armas Leves:** Permitem um ataque adicional por rodada com esta arma. Este ataque não conta para o limite de ataques extras por nível.
 
 **Armas Médias:** Permitem transformar o dano em d10. Para armas corpo-a-corpo, usando-a com as duas mãos. Para armas à distância, se a atacante não se mover naquele turno.
 
@@ -435,8 +480,8 @@ Para dividir o tesouro entre mais personagens, considere que cada tesouro recebi
 | :---- | :---- | :---- | :---- |
 | Nenhuma | 10 \+ DES | \- | \- |
 | Leve | 12 \+ DES | 1 | Roupas reforçadas, couro |
-| Média | 14 \+ ½ DES | 2 | Couraça, meia armadura |
-| Pesada | 16 | 3 | Cota de malha, armadura completa |
+| Média | 14 \+ DES | 2 | Couraça, meia armadura |
+| Pesada | 16 \+ DES | 3 | Cota de malha, armadura completa |
 | Escudo | \+2 | \- | \- |
 
 **Força Mínima:** Armaduras requerem um valor de FOR mínimo para usá-las. Caso a personagem não tenha a FOR mínima ela calcula a Defesa normalmente, mas atividades extenuantes (combate, movimentação difícil, conjuração, etc.) causam a condição Exausta.
@@ -449,7 +494,7 @@ Não há um limite de quantos itens uma personagem pode levar consigo, desde que
 
 | Para a Mestra |
 | :---- |
-| Se as Jogadoras quiserem vender itens para aumentar seu Nível de Tesouro, provavelmente os vendedores oferecerão valores 1, 2 ou até 3 NT abaixo do normal. Cabe às personagens negociarem um valor melhor\! |
+| Se as Jogadoras quiserem vender itens para aumentar seu Nível de Tesouro, provavelmente os vendedores oferecerão valores 1, 2 ou até 3 NT abaixo do normal. Cabe às personagens negociarem um valor melhor\! Vendas funcionam como receber um tesouro: o NT da personagem é elevado se a quantia recebida pela venda igualar ou superar seu NT atual. |
 
 # **Aventuras**
 
@@ -686,7 +731,11 @@ Quando uma Magia for conjurada, crie um nome para ela combinando um substantivo 
 
 ## **Conjuração**
 
-A personagem prestes a conjurar a Magia descreve o Fenômeno que deseja realizar com ela, a quantidade de dados de Potencial que pretende rolar ou a Variação que quer atingir. Uma magia pode produzir apenas um desses efeitos, e a descrição deve estar de acordo com o tipo de Magia a ser conjurada (Divina, Natural ou Arcana).
+A personagem prestes a conjurar a Magia descreve o Fenômeno que deseja realizar com ela, a quantidade de dados de Potencial que pretende rolar ou a Variação que quer atingir.
+
+Uma Magia pode produzir quaisquer combinações desses efeitos, contanto que sua Dificuldade de Conjuração somada não ultrapasse 10\.
+
+A descrição da Magia deve estar de acordo com o tipo de Magia a ser conjurada (Divina, Natural ou Arcana).
 
 ## **Fenômeno Mágico**
 
@@ -724,18 +773,22 @@ Este valor pode ser usado como bônus ou penalidade para Testes, Atributos, Defe
 
 Após ouvir a descrição da Magia, a Mestra determina a Dificuldade de Conjuração (DC), de 1 a 10, também chamada de nível da Magia. A tabela a seguir serve como um guia para a DC, sendo que a palavra final é da Mestra. A DC nunca pode ficar abaixo de 1\.
 
-| Dificuldade de Conjuração | Fenômeno | Potencial | Variação | Componentes Materiais |
-| :---- | :---- | :---- | :---- | :---- |
-| 1 | Trivial | 1d10 | \+-1 | Cobre x1 |
-| 2 | Fácil | 2d10 | \+-2 | Prata x1 |
-| 3 | Mediano | 3d10 | \+-3 | Cobre x1Prata x1 |
-| 4 | Desafiador | 4d10 | \+-4 | Eletro x1 |
-| 5 | Complicado | 5d10 | \+-5 | Prata x1Eletro x1 |
-| 6 | Difícil | 6d10 | \+-6 | Ouro x1 |
-| 7 | Absurdo | 7d10 | \+-7 | Eletro x1Ouro x1 |
-| 8 | Insano | 8d10 | \+-8 | Platina x1 |
-| 9 | Homérico | 9d10 | \+-9 | Ouro x1 Platina x1  |
-| 10 | Impossível | 10d10 | \+-10 | Platina x2 |
+Se a Magia incluir diferentes efeitos, suas DCs são somadas, com o somatório limitado a 10\.
+
+Por exemplo, uma Magia que ilumina uma sala inteira, causa 3d10 de dano a um alvo e também \-2 de penalidade é calculada como Fenômeno Trivial (1), Potencial 3d10 (3) e Variação \-2 (2). Sua DC, ou nível da Magia, é 6\.
+
+| Dificuldade de Conjuração | Fenômeno | Potencial | Variação |
+| :---- | :---- | :---- | :---- |
+| 1 | Trivial | 1d10 | \+-1 |
+| 2 | Fácil | 2d10 | \+-2 |
+| 3 | Mediano | 3d10 | \+-3 |
+| 4 | Desafiador | 4d10 | \+-4 |
+| 5 | Complicado | 5d10 | \+-5 |
+| 6 | Difícil | 6d10 | \+-6 |
+| 7 | Absurdo | 7d10 | \+-7 |
+| 8 | Insano | 8d10 | \+-8 |
+| 9 | Homérico | 9d10 | \+-9 |
+| 10 | Impossível | 10d10 | \+-10 |
 
 ## 
 
@@ -759,11 +812,11 @@ Caso a rolagem de conjuração seja bem-sucedida, o efeito mágico acontece, do 
 
 Se o alvo da Magia for uma protagonista, ela tem direito a um Teste para evitar seus efeitos. A Dificuldade é 10 mais o nível da Magia. Por exemplo, uma Magia de nível 6 teria Dificuldade 16 para que uma personagem não seja afetada. O Atributo testado é determinado pela Mestra.
 
-## **Duração** 
+## **Duração**
 
 Magias com efeito prolongado, ou seja, mais do que um turno, ficam ativas até que a conjuradora perca a concentração. Exemplos incluem invocações, objetos criados, bônus ou penalidades ou mesmo Magias de Potencial Mágico cujos dados não foram usados todos de uma vez só. Uma conjuradora consegue manter apenas uma magia de efeito prolongado por vez.
 
-Manter a concentração envolve um Teste do Atributo principal da Classe, com Dificuldade igual a 10 mais o nível da Magia conjurada. Para Magias de Fenômeno o teste é feito a cada 10 minutos, mas para Magias de Potencial ou Variação o teste é feito a cada novo turno após a conjuração da Magia. No caso de conjuração através de Itens Mágicos (ver adiante) a Mestra determina qual Atributo testar. Em uma falha a concentração é perdida e a Magia é encerrada imediatamente.
+Manter a concentração envolve um Teste do Atributo principal da Classe, com Dificuldade igual a 10 mais o nível da Magia conjurada. Para Magias que realizem apenas Fenômenos o teste é feito a cada 10 minutos, mas para Magias que envolvam Potencial ou Variação o teste é feito a cada novo turno após a conjuração da Magia. No caso de conjuração através de Itens Mágicos (ver adiante) a Mestra determina qual Atributo testar. Em uma falha a concentração é perdida e a Magia é encerrada imediatamente.
 
 Caso a conjuradora sofra dano ou seja atrapalhada de alguma forma, a Mestra pode também pedir um Teste para manter a concentração. A magia também termina se a conjuradora perder a consciência.
 
@@ -781,7 +834,7 @@ Uma Magia pode ser anulada por outra conjuradora. A anulação consiste em uma r
 
 É possível conjurar uma magia sem utilizar DH e sem uma rolagem de conjuração: realizando rituais mágicos.
 
-Um ritual tem duração de uma hora e requer a oferenda de componentes materiais para que a Magia tenha efeito. A tabela de conjuração traz um valor de Tesouro para a oferenda de cada nível de Magia. É possível comprar componentes materiais de valores específicos de antemão para uso em rituais, dispensando a oferenda de outros itens. Quaisquer itens ofertados para a realização de um ritual são destruídos permanentemente, seja o ritual um sucesso ou não.
+Um ritual tem duração de uma hora e requer a oferenda de componentes materiais para que a Magia tenha efeito. A tabela de conjuração a seguir traz um valor de Tesouro para a oferenda de cada nível de Magia. É possível comprar componentes materiais de valores específicos de antemão para uso em rituais, dispensando a oferenda de outros itens. Quaisquer itens ofertados para a realização de um ritual são destruídos permanentemente, seja o ritual um sucesso ou não.
 
 Apenas personagens que já são capazes de conjurar Magias podem realizar rituais. Basta que as personagens ofertem itens com um valor acumulado igual ao necessário e a Magia terá efeito, contanto que a Magia seja de nível igual ou inferior ao nível da personagem realizando o ritual.
 
@@ -790,6 +843,21 @@ Uma personagem consegue realizar rituais de Magias até o seu nível sem realiza
 Um Item Mágico pode ser ofertado para um ritual, servindo como componente material de valor igual ao indicado na tabela para o nível do Item. Um Item Mágico de nível 5, por exemplo, valeria 1 Prata e 1 Eletro.
 
 A personagem que realizou o ritual pode manter a concentração em efeitos prolongados seguindo as regras explicadas anteriormente, sendo igualmente possível optar por gastar um DH e manter a concentração automaticamente por uma hora. Testes para manter a concentração contudo são realizados a cada minuto (e não a cada turno) e também são rolados com Vantagem dado o poder mágico do ritual. 
+
+| Dificuldade de Conjuração | Componentes Materiais |
+| :---- | :---- |
+| 1 | Cobre x1 |
+| 2 | Prata x1 |
+| 3 | Cobre x1Prata x1 |
+| 4 | Eletro x1 |
+| 5 | Prata x1Eletro x1 |
+| 6 | Ouro x1 |
+| 7 | Eletro x1Ouro x1 |
+| 8 | Platina x1 |
+| 9 | Ouro x1 Platina x1  |
+| 10 | Platina x2 |
+
+## 
 
 ## **Habilidades Únicas**
 
@@ -803,7 +871,7 @@ Uma Habilidade Única não pode ser utilizada através de um ritual.
 
 Existem objetos de grande poder espalhados pelo mundo, chamados Itens Mágicos. Eles conferem habilidades excepcionais àqueles que os usam.
 
-Todo Item Mágico tem um nível, de 1 a 10, assim como uma personagem e também um Tema, conforme explicado adiante. A forma como os Itens Mágicos são utilizados depende de seu tipo.
+Todo Item Mágico tem um nível, de 1 a 10, assim como uma personagem, e também um Tema, conforme explicado adiante. A forma como os Itens Mágicos são utilizados depende de seu tipo.
 
 ### **Tema**
 
@@ -817,7 +885,7 @@ Uma arma mágica confere um bônus para ataque e dano igual a metade do nível d
 
 Uma armadura mágica adiciona metade do nível do Item à Defesa de quem a utilizar. O Tema de uma armadura mágica pode conferir Resistência a um tipo de dano oposto, a critério da Mestra.
 
-*Ex.: Uma personagem usando uma armadura média de nível 5 (+2) calcularia sua Defesa somando 14+2+ ½ DES. Se for a Couraça das Marés, por exemplo, ela poderia conferir Resistência contra fogo.*
+*Ex.: Uma personagem usando uma armadura média de nível 5 (+2) calcularia sua Defesa somando 14+2+DES. Se for a Couraça das Marés, por exemplo, ela poderia conferir Resistência contra fogo.*
 
 Escudos mágicos funcionam da mesma forma que armaduras mágicas, mas contam como acessórios para o limite de itens (ver adiante).
 
@@ -825,7 +893,7 @@ Armas, armaduras e escudos mágicos possuem cargas mágicas (ver adiante).
 
 ### **Acessórios**
 
-Geralmente existem na forma de jóias belas e ornamentadas de valor inestimável. Possuem cargas mágicas usadas para conjurar Magias de acordo com o Tema (ver adiante). Além disso, a critério da Mestra, estes Itens podem conferir Vantagem em Testes se seu Tema for relevante em determinada situação. Por exemplo, a Mestra poderia determinar que a *Coroa da Vingança* conferirá Vantagem para a rolagem de uma protagonista contra um vilão que já a derrotou antes.
+Geralmente existem na forma de jóias belas e ornamentadas de valor inestimável. Possuem cargas mágicas usadas para conjurar Magias de acordo com o Tema. Além disso, a critério da Mestra, estes Itens podem conferir Vantagem em Testes se seu Tema for relevante em determinada situação. Por exemplo, a Mestra poderia determinar que a *Coroa da Vingança* conferirá Vantagem para a rolagem de uma protagonista contra um vilão que já a derrotou antes.
 
 ### **Pergaminhos**
 
@@ -881,7 +949,7 @@ Caso o monstro precise realizar Testes, utilize o nível como bônus. Ou seja, u
 
 ### **Defesa e Pontos de Vida**
 
-Funcionam de modo idêntico às estatísticas das personagens.
+Funcionam de modo similar às estatísticas das personagens. Entretanto, as criaturas não precisam seguir o mesmo esquema de cálculo da Defesa.
 
 ### **Pontos de Ação**
 
@@ -891,9 +959,7 @@ Para realizar um ataque o monstro gasta 1 PA. É possível atacar múltiplas vez
 
 Já para utilizar um Poder que precise de uma ação (ao contrário de um efeito passivo, por exemplo) o monstro gasta 1 PA para cada alvo afetado. Contudo ao fazer isto o monstro perde momentaneamente a capacidade de utilizar tal Poder novamente. Role 1d6 a cada novo turno do monstro: o Poder fica novamente disponível se o resultado for um 6\.
 
-Demais ações no combate custam 1 PA cada.
-
-Monstros recuperam todos os PA em seus turnos.
+Outras ações não cobertas pelas regras anteriores custam 1 PA cada. Monstros recuperam todos os PA em seus turnos.
 
 €mikoarc,Azer,TÁ PEGANDO FOGO BICHO€
 

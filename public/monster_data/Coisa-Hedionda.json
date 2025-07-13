@@ -1,0 +1,22 @@
+{
+  "nome": "Coisa-Hedionda",
+  "nivel": 2,
+  "pa": 1,
+  "defesa": 10,
+  "vida": 11,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Mordida",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "CoisaHedionda",
+  "habilidades": [
+    {
+      "titulo": "Vozes Hediondas",
+      "texto": "Um alvo deve fazer um Teste de Sabedoria com Dificuldade 12. Em uma falha ele perde seu próximo turno."
+    }
+  ]
+}

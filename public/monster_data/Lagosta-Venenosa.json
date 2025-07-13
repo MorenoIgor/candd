@@ -1,0 +1,26 @@
+{
+  "nome": "Lagosta-Venenosa",
+  "nivel": 4,
+  "pa": 2,
+  "defesa": 16,
+  "vida": 22,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Pinça, Tentáculos",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "LagostaVenenosa",
+  "habilidades": [
+    {
+      "titulo": "Constrição",
+      "texto": "Ao sofrer um ataque de pinça da Lagosta-Venenosa o alvo deve fazer um Teste de Força ou Destreza com Dificuldade 14. Em uma falha o alvo fica preso e a Lagosta-Venenosa terá Vantagem em novos ataques contra este alvo até que ele se solte, repetindo o Teste em seu turno. A Lagosta-Venenosa pode prender até dois alvos desta forma."
+    },
+    {
+      "titulo": "Tentáculos Paralisantes",
+      "texto": "Um alvo deve fazer um Teste de Constituição com Dificuldade 14 a cada novo turno do alvo. Em uma falha não poderá agir nesse turno, mas um sucesso encerra o efeito."
+    }
+  ]
+}

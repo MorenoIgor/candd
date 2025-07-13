@@ -1,0 +1,22 @@
+{
+  "nome": "Elemental da Água",
+  "nivel": 5,
+  "pa": 3,
+  "defesa": 14,
+  "vida": 30,
+  "resistencia": "ácido, armas não-mágicas",
+  "imunidade": "fogo, veneno",
+  "vulnerabilidade": "gelo",
+  "tamanho": 2,
+  "arma": "Onda",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "ElementaldaÁgua",
+  "habilidades": [
+    {
+      "titulo": "Envolver",
+      "texto": "Um alvo deve fazer um Teste de Destreza com Dificuldade 15. Em uma falha ele é puxado para dentro do Elemental da Água. Um alvo preso desta forma não consegue agir nem respirar. O Teste é repetido a cada novo turno do alvo, com uma falha causando 2d10 de dano de afogamento. Um sucesso faz com que o alvo se liberte."
+    }
+  ]
+}

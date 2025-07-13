@@ -1,0 +1,22 @@
+{
+  "nome": "Árvore-Viva",
+  "nivel": 2,
+  "pa": 1,
+  "defesa": 13,
+  "vida": 14,
+  "resistencia": "impacto, perfuração",
+  "imunidade": "",
+  "vulnerabilidade": "fogo",
+  "tamanho": 2,
+  "arma": "Galhos",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "ÁrvoreViva",
+  "habilidades": [
+    {
+      "titulo": "Camuflagem",
+      "texto": "Enquanto a Árvore-Viva estiver parada, é indistinguível de uma árvore comum."
+    }
+  ]
+}

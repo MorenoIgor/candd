@@ -1,0 +1,22 @@
+{
+  "nome": "Kotengu",
+  "nivel": 2,
+  "pa": 1,
+  "defesa": 15,
+  "vida": 9,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Adaga",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Kotengu",
+  "habilidades": [
+    {
+      "titulo": "Frenesi",
+      "texto": "Se o Kotengu for irritado ou enganado ele se descontrolará, recebendo Vantagem em seus ataques até ser derrotado. Ataques contra ele têm Vantagem."
+    }
+  ]
+}

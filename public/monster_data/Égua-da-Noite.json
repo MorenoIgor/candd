@@ -1,0 +1,22 @@
+{
+  "nome": "Égua-da-Noite",
+  "nivel": 3,
+  "pa": 2,
+  "defesa": 13,
+  "vida": 19,
+  "resistencia": "",
+  "imunidade": "fogo",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Coice",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "ÉguadaNoite",
+  "habilidades": [
+    {
+      "titulo": "Resistência a Fogo",
+      "texto": "Uma criatura cavalgando a Égua-da-Noite recebe Resistência a dano de fogo."
+    }
+  ]
+}

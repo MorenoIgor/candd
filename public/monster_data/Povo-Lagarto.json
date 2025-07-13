@@ -1,0 +1,22 @@
+{
+  "nome": "Povo-Lagarto",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 15,
+  "vida": 6,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Clava, Lança, Mordida",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "PovoLagarto",
+  "habilidades": [
+    {
+      "titulo": "Camaleônico",
+      "texto": "Se o Povo-Lagarto não tiver sido detectado, quaisquer Testes para perceber sua presença são feitos com Desvantagem."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "nome": "Gigante das Colinas",
+  "nivel": 5,
+  "pa": 3,
+  "defesa": 13,
+  "vida": 40,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 3,
+  "arma": "Clava",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "GigantedasColinas",
+  "habilidades": [
+    {
+      "titulo": "Arremessar Pedras",
+      "texto": "Um alvo deve fazer um Teste de Destreza com Dificuldade 15. Em uma falha é atingido por uma rocha, sofrendo 5d10 de dano."
+    }
+  ]
+}

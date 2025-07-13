@@ -1,0 +1,22 @@
+{
+  "nome": "Assombração",
+  "nivel": 5,
+  "pa": 3,
+  "defesa": 13,
+  "vida": 20,
+  "resistencia": "tudo, exceto magia",
+  "imunidade": "necrótico, veneno",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Toque",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Assombração",
+  "habilidades": [
+    {
+      "titulo": "Drenar Vida",
+      "texto": "Um alvo deve fazer um Teste de Constituição com Dificuldade 15. Em uma falha, sofre 2d10 de dano e não poderá recuperar Vida até realizar um descanso."
+    }
+  ]
+}

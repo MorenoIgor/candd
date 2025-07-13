@@ -1,0 +1,22 @@
+{
+  "nome": "Aranha-em-Pé",
+  "nivel": 2,
+  "pa": 1,
+  "defesa": 13,
+  "vida": 9,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Mordida",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "AranhaemPé",
+  "habilidades": [
+    {
+      "titulo": "Teia",
+      "texto": "A Aranha-em-Pé solta uma teia sobre os alvos, que precisam vencer um Teste de Destreza com Dificuldade 12 para não serem presos. Criaturas presas não podem se mover, sofrendo ataques com Vantagem."
+    }
+  ]
+}

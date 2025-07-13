@@ -1,0 +1,22 @@
+{
+  "nome": "Gigante-de-duas-Cabeças",
+  "nivel": 4,
+  "pa": 2,
+  "defesa": 12,
+  "vida": 22,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Clava",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "GigantededuasCabeças",
+  "habilidades": [
+    {
+      "titulo": "Duas Cabeças",
+      "texto": "O Gigante-de-duas-Cabeças consegue lutar mesmo com apenas uma de suas cabeças consciente. Efeitos que afetem sua mente devem ser conjurados duas vezes contra ele."
+    }
+  ]
+}

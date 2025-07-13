@@ -1,0 +1,26 @@
+{
+  "nome": "Aranha-Fantasma",
+  "nivel": 3,
+  "pa": 2,
+  "defesa": 13,
+  "vida": 16,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Mordida",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "AranhaFantasma",
+  "habilidades": [
+    {
+      "titulo": "Veneno",
+      "texto": "Os ataques da Aranha-Fantasma causam 1d10 de dano de veneno adicional ao alvo."
+    },
+    {
+      "titulo": "Etérea",
+      "texto": "A Aranha-Fantasma assume uma forma semifísica. Ataques contra ela têm Desvantagem até que ela sofra dano."
+    }
+  ]
+}

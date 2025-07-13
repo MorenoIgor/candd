@@ -1,0 +1,22 @@
+{
+  "nome": "Goblin",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 15,
+  "vida": 6,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Espada, Arco",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Goblin",
+  "habilidades": [
+    {
+      "titulo": "Ligeiro",
+      "texto": "O Goblin ignora terreno difícil e pode se mover para áreas distantes no combate sem usar a ação Mover."
+    }
+  ]
+}

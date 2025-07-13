@@ -1,0 +1,22 @@
+{
+  "nome": "Verme-Bicudo",
+  "nivel": 2,
+  "pa": 1,
+  "defesa": 14,
+  "vida": 7,
+  "resistencia": "armas não-mágicas",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Tentáculos, Bico",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "VermeBicudo",
+  "habilidades": [
+    {
+      "titulo": "Furtivo",
+      "texto": "Se o Verme-Bicudo não tiver sido detectado, quaisquer Testes para perceber sua presença são feitos com Desvantagem."
+    }
+  ]
+}

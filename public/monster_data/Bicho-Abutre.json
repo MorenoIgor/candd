@@ -1,0 +1,26 @@
+{
+  "nome": "Bicho-Abutre",
+  "nivel": 6,
+  "pa": 3,
+  "defesa": 15,
+  "vida": 34,
+  "resistencia": "gelo, fogo, elétrico, armas não-mágicas",
+  "imunidade": "veneno",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Bico, Garras",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "BichoAbutre",
+  "habilidades": [
+    {
+      "titulo": "Esporos Venenosos",
+      "texto": "Um alvo deve fazer um Teste de Constituição com Dificuldade 16. Em uma falha ele sofre 3d10 de dano de veneno imediatamente, e 1d10 adicional a cada novo turno até que consiga se livrar dos esporos."
+    },
+    {
+      "titulo": "Grito Horripilante",
+      "texto": "Um alvo deve fazer um Teste de Constituição com Dificuldade 16. Em uma falha ele perde seu próximo turno."
+    }
+  ]
+}

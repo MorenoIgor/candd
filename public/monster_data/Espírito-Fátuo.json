@@ -1,0 +1,26 @@
+{
+  "nome": "Espírito-Fátuo",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 19,
+  "vida": 6,
+  "resistencia": "ácido, gelo, fogo, necrótico, armas não-mágicas",
+  "imunidade": "elétrico, veneno",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Choque",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "EspíritoFátuo",
+  "habilidades": [
+    {
+      "titulo": "Consumir Vida",
+      "texto": "Um alvo que chegue a 0 de Vida por um ataque do Espírito-Fátuo morre instantaneamente."
+    },
+    {
+      "titulo": "Inivisibilidade",
+      "texto": "O Espírito-Fátuo fica invisível, causando Desvantagem em ataques contra ele até que seja atingido."
+    }
+  ]
+}

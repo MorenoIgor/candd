@@ -1,0 +1,30 @@
+{
+  "nome": "Tigromem",
+  "nivel": 4,
+  "pa": 2,
+  "defesa": 12,
+  "vida": 17,
+  "resistencia": "armas que não sejam feitas de prata",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Garras, Mordida, Espada, Arco",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Tigromem",
+  "habilidades": [
+    {
+      "titulo": "Licantropo",
+      "texto": "O Tigromem se transforma em um tigre humanoide ou volta a sua forma original. O Tigromem não é um combatente em sua forma original, e retorna a essa forma se chegar a 0 de Vida."
+    },
+    {
+      "titulo": "Maldição",
+      "texto": "Se um alvo for atingido por um ataque de mordida do Tigromem deve fazer um Teste de Constituição com Dificuldade 14. Em uma falha será amaldiçoado com licantropia, transformando-se num Tigromem."
+    },
+    {
+      "titulo": "Derrubar",
+      "texto": "Um alvo deve fazer um Teste de Força com Dificuldade 14 ou será derrubado. O Tigromem pode então fazer um único ataque adicional de mordida com Vantagem contra um alvo derrubado."
+    }
+  ]
+}

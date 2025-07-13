@@ -1,0 +1,22 @@
+{
+  "nome": "Ogro",
+  "nivel": 2,
+  "pa": 1,
+  "defesa": 11,
+  "vida": 16,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Clava",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Ogro",
+  "habilidades": [
+    {
+      "titulo": "Arremessar",
+      "texto": "Um alvo deve fazer um Teste de Destreza ou Força com Dificuldade 12. Em uma falha o alvo é arremessado para outra área de combate, sofrendo 2d10 de dano."
+    }
+  ]
+}

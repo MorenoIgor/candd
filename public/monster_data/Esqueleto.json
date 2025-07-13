@@ -1,0 +1,22 @@
+{
+  "nome": "Esqueleto",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 13,
+  "vida": 7,
+  "resistencia": "perfuração",
+  "imunidade": "veneno",
+  "vulnerabilidade": "impacto",
+  "tamanho": 1,
+  "arma": "Espada, Arco",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Esqueleto",
+  "habilidades": [
+    {
+      "titulo": "Pilha de Ossos",
+      "texto": "Se os ossos do Esqueleto não forem espalhados, ele se reformará em 1d4 rodadas com a mesma quantidade de Vida original."
+    }
+  ]
+}

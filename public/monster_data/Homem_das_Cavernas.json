@@ -1,0 +1,22 @@
+{
+  "nome": "Homem das Cavernas",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 11,
+  "vida": 6,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Clava",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "HomemdasCavernas",
+  "habilidades": [
+    {
+      "titulo": "Ferocidade",
+      "texto": "Os ataques do Homem das Cavernas causam 1d10 adicional de dano."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "nome": "Morto-Vivo",
+  "nivel": 3,
+  "pa": 2,
+  "defesa": 14,
+  "vida": 14,
+  "resistencia": "necrótico, armas não-mágicas",
+  "imunidade": "veneno",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Espada, Arco",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "MortoVivo",
+  "habilidades": [
+    {
+      "titulo": "Drenar Vida",
+      "texto": "Um alvo deve fazer um Teste de Constituição com Dificuldade 13. Em uma falha, sofre 1d10 de dano e não poderá recuperar Vida até realizar um descanso. Se isso levar o alvo a 0 de Vida ou menos, ele morre imediatamente e se levanta como um zumbi sob controle do Morto-Vivo."
+    }
+  ]
+}

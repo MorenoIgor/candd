@@ -1,0 +1,26 @@
+{
+  "nome": "Golem de Cadáveres",
+  "nivel": 5,
+  "pa": 3,
+  "defesa": 10,
+  "vida": 25,
+  "resistencia": "elétrico, veneno, armas não-mágicas",
+  "imunidade": "",
+  "vulnerabilidade": "fogo",
+  "tamanho": 1,
+  "arma": "Pancada",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "GolemdeCadáveres",
+  "habilidades": [
+    {
+      "titulo": "Frenesi",
+      "texto": "Se o Golem de Cadáveres sofrer dano de fogo ele se descontrolará, recebendo Vantagem em seus ataques até ser derrotado. Ataques contra ele têm Vantagem."
+    },
+    {
+      "titulo": "Absorver Relâmpago",
+      "texto": "Se o Golem de Cadáveres sofrer dano elétrico ele absorve o dano recebido e recupera a mesma quantidade de Vida."
+    }
+  ]
+}

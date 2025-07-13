@@ -1,0 +1,22 @@
+{
+  "nome": "Armadura Animada",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 18,
+  "vida": 7,
+  "resistencia": "",
+  "imunidade": "veneno, psíquico",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Pancada",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "ArmaduraAnimada",
+  "habilidades": [
+    {
+      "titulo": "Camuflagem",
+      "texto": "Enquanto a Armadura Animada estiver parada, é indistinguível de uma armadura comum."
+    }
+  ]
+}

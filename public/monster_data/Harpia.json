@@ -1,0 +1,22 @@
+{
+  "nome": "Harpia",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 11,
+  "vida": 6,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Garras, Clava",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Harpia",
+  "habilidades": [
+    {
+      "titulo": "Canção Encantadora",
+      "texto": "Um alvo deve fazer um Teste de Sabedoria com Dificuldade 11. Em uma falha ele fica imediatamente encantado, incapaz de agir por conta própria, usando suas ações para se aproximar da Harpia. Em seus próximo turnos ele deve repetir o Teste. Se tiver sucesso o efeito se encerra."
+    }
+  ]
+}

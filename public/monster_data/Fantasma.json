@@ -1,0 +1,26 @@
+{
+  "nome": "Fantasma",
+  "nivel": 4,
+  "pa": 2,
+  "defesa": 11,
+  "vida": 13,
+  "resistencia": "ácido, fogo, elétrico, sônico, armas não-mágicas",
+  "imunidade": "gelo, necrótico, veneno",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Toque Espectral",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Fantasma",
+  "habilidades": [
+    {
+      "titulo": "Susto",
+      "texto": "Um alvo deve fazer um Teste de Sabedoria com Dificuldade 14. Em uma falha ele cai imediatamente com Vida 0."
+    },
+    {
+      "titulo": "Possessão",
+      "texto": "O Fantasma tenta assumir o controle de um alvo, que deve fazer um Teste de Carisma com Dificuldade 14. Em uma falha o Fantasma controlará o alvo até que seja exorcizado com uma Magia Divina. O Fantasma só pode possuir um alvo desta forma."
+    }
+  ]
+}

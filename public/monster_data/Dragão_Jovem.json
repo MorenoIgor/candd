@@ -1,0 +1,22 @@
+{
+  "nome": "Dragão Jovem",
+  "nivel": 6,
+  "pa": 3,
+  "defesa": 18,
+  "vida": 40,
+  "resistencia": "",
+  "imunidade": "fogo",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Garras, Mordida, Cauda",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "DragãoJovem",
+  "habilidades": [
+    {
+      "titulo": "Bafo de Fogo",
+      "texto": "Um alvo deve fazer um Teste de Destreza com Dificuldade 16. Em uma falha ele sofre 6d10 de dano de fogo."
+    }
+  ]
+}

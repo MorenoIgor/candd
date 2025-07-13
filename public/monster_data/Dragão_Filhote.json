@@ -1,0 +1,22 @@
+{
+  "nome": "Dragão Filhote",
+  "nivel": 3,
+  "pa": 2,
+  "defesa": 17,
+  "vida": 14,
+  "resistencia": "",
+  "imunidade": "fogo",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Garras, Mordida",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "DragãoFilhote",
+  "habilidades": [
+    {
+      "titulo": "Bafo de Fogo",
+      "texto": "Um alvo deve fazer um Teste de Destreza com Dificuldade 13. Em uma falha ele sofre 3d10 de dano de fogo."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "nome": "Povo-Pássaro",
+  "nivel": 4,
+  "pa": 2,
+  "defesa": 14,
+  "vida": 13,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Lança",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "PovoPássaro",
+  "habilidades": [
+    {
+      "titulo": "Içar",
+      "texto": "Um alvo deve fazer um Teste de Força ou Destreza com Dificuldade 14. Em uma falha ele é içado pelo Povo-Pássaro, que pode largá-lo a qualquer momento. O alvo também pode se soltar com um novo Teste de Força ou Destreza. Assim que é solto, o alvo sofre dano de queda de acordo."
+    }
+  ]
+}

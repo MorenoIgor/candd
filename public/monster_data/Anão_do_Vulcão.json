@@ -1,0 +1,22 @@
+{
+  "nome": "Anão do Vulcão",
+  "nivel": 2,
+  "pa": 1,
+  "defesa": 16,
+  "vida": 11,
+  "resistencia": "",
+  "imunidade": "fogo, veneno",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Marreta",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "AnãodoVulcão",
+  "habilidades": [
+    {
+      "titulo": "Corpo em Chamas",
+      "texto": "O Anão do Vulcão está constantemente pegando fogo, causando 1d10 de dano de fogo adicional em seus ataques."
+    }
+  ]
+}

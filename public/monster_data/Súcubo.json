@@ -1,0 +1,30 @@
+{
+  "nome": "Súcubo",
+  "nivel": 3,
+  "pa": 2,
+  "defesa": 15,
+  "vida": 8,
+  "resistencia": "gelo, fogo, elétrico, veneno, armas não-mágicas",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Garras",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Súcubo",
+  "habilidades": [
+    {
+      "titulo": "Metamorfo",
+      "texto": "A Súcubo se transforma em uma criatura humanoide de tamanho humano ou menor, ou volta a sua forma original. Suas estatísticas de jogo permanecem as mesmas, e a Súcubo retorna a sua forma original se chegar a 0 de Vida."
+    },
+    {
+      "titulo": "Encantar",
+      "texto": "Um alvo deve fazer um Teste de Sabedoria com Dificuldade 13. Em uma falha ele fica imediatamente encantado, incapaz de agir por conta própria, usando suas ações para se aproximar da Súcubo. Em seus próximo turnos ele deve repetir o Teste. Se tiver sucesso o efeito se encerra."
+    },
+    {
+      "titulo": "Drenar Vida",
+      "texto": "Um alvo deve fazer um Teste de Constituição com Dificuldade 14. Em uma falha, sofre 1d10 de dano e não poderá recuperar Vida até realizar um descanso. Se isso levar o alvo a 0 de Vida ou menos, ele morre imediatamente."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "nome": "Mephit-da-Areia",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 12,
+  "vida": 6,
+  "resistencia": "",
+  "imunidade": "veneno",
+  "vulnerabilidade": "fogo",
+  "tamanho": 1,
+  "arma": "Garras",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "MephitdaAreia",
+  "habilidades": [
+    {
+      "titulo": "Explosão Cegante",
+      "texto": "Quando o Mephit-da-Areia morre, todos na mesma área de combate devem fazer um Teste de Constituição com Dificuldade 11. Em uma falha, ficarão cegos até que consigam limpar a areia de seus olhos."
+    },
+    {
+      "titulo": "Sopro de Areia",
+      "texto": "Um alvo deve fazer um Teste de Destreza com Dificuldade 11. Em uma falha o alvo fica cego e o Mephit-da-Areia terá Vantagem em novos ataques contra este alvo até que ele volte a enxergar, repetindo o Teste em seu turno."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "nome": "Basilisco",
+  "nivel": 3,
+  "pa": 2,
+  "defesa": 15,
+  "vida": 11,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Mordida",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Basilisco",
+  "habilidades": [
+    {
+      "titulo": "Veneno",
+      "texto": "Os ataques do Basilisco causam 1d10 de dano de veneno adicional ao alvo."
+    },
+    {
+      "titulo": "Olhar Petrificante",
+      "texto": "Um alvo deve fazer um Teste de Constituição com Dificuldade 13. Em uma falha ele sofre 1d10 de dano. Se isto o levar a 0 de Vida ou menos, o alvo é transformado em pedra."
+    }
+  ]
+}

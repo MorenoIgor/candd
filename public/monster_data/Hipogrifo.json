@@ -1,0 +1,22 @@
+{
+  "nome": "Hipogrifo",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 11,
+  "vida": 11,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Bico, Garras",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Hipogrifo",
+  "habilidades": [
+    {
+      "titulo": "Galope",
+      "texto": "Se o Hipogrifo se moveu para outra área no combate para atacar, os alvos sofrem 1d10 de dano adicional."
+    }
+  ]
+}

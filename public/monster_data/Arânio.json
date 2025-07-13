@@ -1,0 +1,22 @@
+{
+  "nome": "Arânio",
+  "nivel": 6,
+  "pa": 3,
+  "defesa": 19,
+  "vida": 34,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Espada, Arco",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Arânio",
+  "habilidades": [
+    {
+      "titulo": "Conjurador Arcano",
+      "texto": "O Arânio pode conjurar Magias Arcanas até o nível 6. A Dificuldade para evitar seus efeitos é 16."
+    }
+  ]
+}

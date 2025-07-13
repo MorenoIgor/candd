@@ -1,0 +1,22 @@
+{
+  "nome": "Bicho-Papão",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 12,
+  "vida": 6,
+  "resistencia": "",
+  "imunidade": "veneno",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Garras, Mordida",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "BichoPapão",
+  "habilidades": [
+    {
+      "titulo": "Paralisia",
+      "texto": "Um alvo atingido por um ataque do Bicho-Papão deve fazer um Teste de Constituição com Dificuldade 11 a cada novo turno do alvo. Em uma falha não poderá agir nesse turno, mas um sucesso encerra o efeito."
+    }
+  ]
+}

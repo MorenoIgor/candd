@@ -1,0 +1,22 @@
+{
+  "nome": "Povo-Sapo",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 14,
+  "vida": 6,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Lança, Língua",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "PovoSapo",
+  "habilidades": [
+    {
+      "titulo": "Pescar",
+      "texto": "Ao sofrer um ataque de língua do Povo-Sapo o alvo deve fazer um Teste de Força com Dificuldade 11. Em uma falha o alvo fica preso e o Povo-Sapo terá Vantagem em novos ataques contra este alvo até que ele se solte, repetindo o Teste em seu turno. O Povo-Sapo pode prender apenas um alvo desta forma."
+    }
+  ]
+}

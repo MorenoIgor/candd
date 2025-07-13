@@ -1,0 +1,26 @@
+{
+  "nome": "Monstro do Pântano",
+  "nivel": 4,
+  "pa": 2,
+  "defesa": 15,
+  "vida": 26,
+  "resistencia": "gelo, fogo",
+  "imunidade": "elétrico",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Pancada",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "MonstrodoPântano",
+  "habilidades": [
+    {
+      "titulo": "Absorver Relâmpago",
+      "texto": "Se o Monstro do Pântano sofrer dano elétrico ele absorve o dano recebido e recupera a mesma quantidade de Vida."
+    },
+    {
+      "titulo": "Envolver",
+      "texto": "Um alvo deve fazer um Teste de Constituição com Dificuldade 14. Em uma falha o alvo fica preso e sofre 2d10 de dano por turno até que se solte, repetindo o Teste em seu turno. O Monstro do Pântano pode envolver apenas um alvo desta forma."
+    }
+  ]
+}

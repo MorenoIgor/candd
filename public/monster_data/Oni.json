@@ -1,0 +1,22 @@
+{
+  "nome": "Oni",
+  "nivel": 8,
+  "pa": 4,
+  "defesa": 16,
+  "vida": 34,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Glaive",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Oni",
+  "habilidades": [
+    {
+      "titulo": "Conjurador Arcano",
+      "texto": "O Oni pode conjurar Magias Arcanas até o nível 8. A Dificuldade para evitar seus efeitos é 18."
+    }
+  ]
+}

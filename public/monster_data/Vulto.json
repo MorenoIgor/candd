@@ -1,0 +1,22 @@
+{
+  "nome": "Vulto",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 12,
+  "vida": 6,
+  "resistencia": "ácido, gelo, fogo, elétrico, sônico, armas não-mágicas",
+  "imunidade": "necrótico, veneno",
+  "vulnerabilidade": "divino",
+  "tamanho": 1,
+  "arma": "Toque",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Vulto",
+  "habilidades": [
+    {
+      "titulo": "Drenar Vida",
+      "texto": "Um alvo deve fazer um Teste de Constituição com Dificuldade 11. Em uma falha, sofre 1d10 dividido pela metade de dano e não poderá recuperar Vida até realizar um descanso. Se isso levar o alvo a 0 de Vida ou menos, ele morre imediatamente e se levanta como um novo Vulto."
+    }
+  ]
+}

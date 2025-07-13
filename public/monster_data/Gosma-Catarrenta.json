@@ -1,0 +1,22 @@
+{
+  "nome": "Gosma-Catarrenta",
+  "nivel": 2,
+  "pa": 1,
+  "defesa": 10,
+  "vida": 14,
+  "resistencia": "ácido",
+  "imunidade": "elétrico, corte",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Pancada",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "GosmaCatarrenta",
+  "habilidades": [
+    {
+      "titulo": "Divisão",
+      "texto": "Se a Gosma-Catarrenta sofrer dano elétrico ou de corte, ela se dividirá em duas, com cada uma tendo metade da Vida da anterior. As novas Gosma-Catarrentas também podem se dividir. Se a Gosma-Catarrenta tiver apenas 1 de Vida, ela não se divide."
+    }
+  ]
+}

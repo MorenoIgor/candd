@@ -1,0 +1,22 @@
+{
+  "nome": "Gigante de Pedra",
+  "nivel": 9,
+  "pa": 5,
+  "defesa": 17,
+  "vida": 65,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 3,
+  "arma": "Clava",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "GigantedePedra",
+  "habilidades": [
+    {
+      "titulo": "Arremessar Pedras",
+      "texto": "Um alvo deve fazer um Teste de Destreza com Dificuldade 19. Em uma falha é atingido por uma rocha, sofrendo 9d10 de dano."
+    }
+  ]
+}

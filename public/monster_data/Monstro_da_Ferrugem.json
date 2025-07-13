@@ -1,0 +1,22 @@
+{
+  "nome": "Monstro da Ferrugem",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 14,
+  "vida": 6,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Mordida",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "MonstrodaFerrugem",
+  "habilidades": [
+    {
+      "titulo": "Ferrugem",
+      "texto": "Os ataques do Monstro da Ferrugem causam a armadura ou escudo do alvo perder 1 ponto de Defesa, se forem feitos de metal. Se a Defesa chegar a 10 a armadura é destruída, e escudos se despedaçam se seu bônus chegar a 0. Igualmente, armas não-mágicas de metal usadas diretamente contra o Monstro da Ferrugem sofrem -1 em seu dano permanentemente. Se chegarem a -3, são destruídas."
+    }
+  ]
+}

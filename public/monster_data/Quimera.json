@@ -1,0 +1,22 @@
+{
+  "nome": "Quimera",
+  "nivel": 8,
+  "pa": 4,
+  "defesa": 14,
+  "vida": 42,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Mordida, Chifres, Garras",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Quimera",
+  "habilidades": [
+    {
+      "titulo": "Sopro de Fogo",
+      "texto": "Um alvo deve fazer um Teste de Destreza com Dificuldade 18. Em uma falha, sofre 8d10 de dano de fogo."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "nome": "Ratomem",
+  "nivel": 2,
+  "pa": 1,
+  "defesa": 12,
+  "vida": 7,
+  "resistencia": "armas que não sejam feitas de prata",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Espada, Besta, Mordida",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Ratomem",
+  "habilidades": [
+    {
+      "titulo": "Licantropo",
+      "texto": "O Ratomem se transforma em um rato humanoide ou volta a sua forma original. O Ratomem não é um combatente em sua forma original, e retorna a essa forma se chegar a 0 de Vida."
+    },
+    {
+      "titulo": "Maldição",
+      "texto": "Se um alvo for atingido por um ataque de mordida do Ratomem deve fazer um Teste de Constituição com Dificuldade 12. Em uma falha será amaldiçoado com licantropia, transformando-se num Ratomem."
+    }
+  ]
+}

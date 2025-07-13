@@ -1,0 +1,22 @@
+{
+  "nome": "Elemental do Fogo",
+  "nivel": 5,
+  "pa": 3,
+  "defesa": 13,
+  "vida": 25,
+  "resistencia": "armas não-mágicas",
+  "imunidade": "fogo, veneno",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Toque",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "ElementaldoFogo",
+  "habilidades": [
+    {
+      "titulo": "Fogaréu",
+      "texto": "Toda criatura na mesma área que o Elemental do Fogo sofre 1d10 de dano de fogo no começo de seu turno."
+    }
+  ]
+}

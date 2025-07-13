@@ -1,0 +1,22 @@
+{
+  "nome": "Bicho-Espinhoso",
+  "nivel": 5,
+  "pa": 3,
+  "defesa": 15,
+  "vida": 20,
+  "resistencia": "gelo, fogo, elétrico, armas não-mágicas",
+  "imunidade": "fogo, veneno",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Garras, Ferrão",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "BichoEspinhoso",
+  "habilidades": [
+    {
+      "titulo": "Bola de Fogo",
+      "texto": "Um alvo deve fazer um Teste de Destreza com Dificuldade 15. Em uma falha ele sofre 5d10 de dano de fogo."
+    }
+  ]
+}

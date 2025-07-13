@@ -1,0 +1,22 @@
+{
+  "nome": "Kobold",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 12,
+  "vida": 6,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Adaga, Atiradeira",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Kobold",
+  "habilidades": [
+    {
+      "titulo": "Ataque em Grupo",
+      "texto": "O Kobold tem Vantagem em seus ataques se houver ao menos outro Kobold na mesma área de combate."
+    }
+  ]
+}

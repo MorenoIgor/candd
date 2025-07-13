@@ -1,0 +1,22 @@
+{
+  "nome": "Imitador",
+  "nivel": 3,
+  "pa": 2,
+  "defesa": 14,
+  "vida": 11,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Pancada",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Imitador",
+  "habilidades": [
+    {
+      "titulo": "Metamorfo",
+      "texto": "O Imitador se transforma em uma criatura humanoide de tamanho humano ou menor que o Imitador tenha visto, ou volta a sua forma original. Suas estatísticas de jogo permanecem as mesmas, e o Imitador retorna a sua forma original se chegar a 0 de Vida."
+    }
+  ]
+}

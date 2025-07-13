@@ -1,0 +1,22 @@
+{
+  "nome": "Arbusto-Ambulante",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 10,
+  "vida": 7,
+  "resistencia": "perfuração",
+  "imunidade": "",
+  "vulnerabilidade": "fogo",
+  "tamanho": 1,
+  "arma": "Galhos",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "ArbustoAmbulante",
+  "habilidades": [
+    {
+      "titulo": "Camuflagem",
+      "texto": "Enquanto o Arbusto-Ambulante estiver parado, é indistinguível de um arbusto comum."
+    }
+  ]
+}

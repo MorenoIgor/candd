@@ -1,0 +1,22 @@
+{
+  "nome": "Cocatriz",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 11,
+  "vida": 6,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Bicada",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Cocatriz",
+  "habilidades": [
+    {
+      "titulo": "Petrificação",
+      "texto": "Os ataques de bicada da Cocatriz causam 1d10 dividido pela metade de dano adicional. Se este dano levar o alvo a 0 de Vida ou menos, ele é transformado em pedra."
+    }
+  ]
+}

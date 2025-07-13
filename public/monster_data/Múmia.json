@@ -1,0 +1,26 @@
+{
+  "nome": "Múmia",
+  "nivel": 3,
+  "pa": 2,
+  "defesa": 11,
+  "vida": 11,
+  "resistencia": "armas não-mágicas",
+  "imunidade": "necrótico, veneno",
+  "vulnerabilidade": "fogo",
+  "tamanho": 1,
+  "arma": "Toque Pútrido",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Múmia",
+  "habilidades": [
+    {
+      "titulo": "Toque Pútrido",
+      "texto": "Um alvo atingido pelo toque pútrido da Múmia sofre 1d10 de dano necrótico adicional. Se isto o levar a 0 de Vida ou menos, o alvo vira pó instantaneamente."
+    },
+    {
+      "titulo": "Olhar Medonho",
+      "texto": "Um alvo deve fazer um Teste de Sabedoria com Dificuldade 13. Em uma falha ele fica imediatamente paralisado, incapaz de agir. Em seus próximo turnos ele deve repetir o Teste. Se tiver sucesso o efeito se encerra."
+    }
+  ]
+}

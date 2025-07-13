@@ -1,0 +1,26 @@
+{
+  "nome": "Minotauro",
+  "nivel": 3,
+  "pa": 2,
+  "defesa": 14,
+  "vida": 22,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Machado",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Minotaur",
+  "habilidades": [
+    {
+      "titulo": "Chifrada",
+      "texto": "Um alvo deve fazer um Teste de Força com Dificuldade 13. Em uma falha ele é arremessado para outra área de combate, sofrendo 1d10 de dano."
+    },
+    {
+      "titulo": "Fúria",
+      "texto": "O Minotauro pode entrar em um estado descontrolado, recebendo Vantagem em seus ataques até ser derrotado. Ataques contra ele têm Vantagem."
+    }
+  ]
+}

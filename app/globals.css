@@ -96,7 +96,8 @@ fieldset {
 .monsterP {
   display: block;
   margin-top: 10pt;
-  font-size: 14pt;
+  font-size: 18pt;
+  margin-bottom: 18pt;
 }
 
 .halfWidth {
@@ -151,6 +152,8 @@ fieldset {
 
 .statBlockName {
   margin-bottom: 8pt;
+  font-size: 32pt;
+  text-align: center;
 }
 
 .monsterImage, .bodyContent img {
@@ -266,4 +269,39 @@ fieldset {
 
 hr {
   border: 1px solid saddlebrown;
+}
+
+.statBlockContainer {
+  width: 100%;
+  font-size: 18pt;
+}
+
+.statBlockLeft {
+  width: 45%;
+  float: left;
+}
+
+.statBlockRight {
+  width: 55%;
+  float: right;
+}
+
+.statBlockBottom {
+  width: 100%;
+  margin-top: 56px;
+  margin-bottom: 32px;
+}
+
+.monsterP h3 {
+  font-size: 16pt;
+}
+
+.specialAbility {
+  font-family: 'Simpleness';
+  font-size: 18pt;
+}
+
+.habilidades {
+  padding-bottom: 24px;
+  display: block;
 }

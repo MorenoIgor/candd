@@ -1,0 +1,22 @@
+{
+  "nome": "Mantícora",
+  "nivel": 3,
+  "pa": 2,
+  "defesa": 14,
+  "vida": 19,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Mordida, Garras, Espinho",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Mantícora",
+  "habilidades": [
+    {
+      "titulo": "Veneno Paralisante",
+      "texto": "Ao sofrer dano do ataque de espinho da Mantícora o alvo deve fazer um Teste de Constituição com Dificuldade 13. Em uma falha o alvo fica paralisado e a Mantícora terá Vantagem em novos ataques contra este alvo até que o efeito passe. O alvo repete o Teste todo turno, com um sucesso encerrando o efeito."
+    }
+  ]
+}

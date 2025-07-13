@@ -1,0 +1,22 @@
+{
+  "nome": "Povo-Enguia",
+  "nivel": 2,
+  "pa": 1,
+  "defesa": 13,
+  "vida": 14,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Arpão",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "PovoEnguia",
+  "habilidades": [
+    {
+      "titulo": "Pescar",
+      "texto": "Ao sofrer um ataque de arpão do Povo-Enguia o alvo deve fazer um Teste de Força com Dificuldade 12. Em uma falha o alvo fica preso e o Povo-Enguia terá Vantagem em novos ataques contra este alvo até que ele se solte, repetindo o Teste em seu turno. O Povo-Enguia pode prender apenas um alvo desta forma."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "nome": "Bicho-Devorador",
+  "nivel": 2,
+  "pa": 1,
+  "defesa": 13,
+  "vida": 7,
+  "resistencia": "necrótico",
+  "imunidade": "veneno",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Garras, Mordida",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "BichoDevorador",
+  "habilidades": [
+    {
+      "titulo": "Catinga",
+      "texto": "Um alvo deve fazer um Teste de Constituição com Dificuldade 12. Em uma falha sofrerá 1d10 de dano de veneno."
+    }
+  ]
+}

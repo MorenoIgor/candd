@@ -1,0 +1,26 @@
+{
+  "nome": "Mantanegra",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 11,
+  "vida": 6,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Esmagar",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Mantanegra",
+  "habilidades": [
+    {
+      "titulo": "Camuflagem",
+      "texto": "Enquanto o Mantanegra estiver parado, é indistinguível de uma formação rochosa comum."
+    },
+    {
+      "titulo": "Constrição",
+      "texto": "Ao sofrer um ataque de esmagar da Mantanegra o alvo deve fazer um Teste de Força ou Destreza com Dificuldade 11. Em uma falha o alvo fica cego e a Mantanegra terá Vantagem em novos ataques contra este alvo até que ele se solte, repetindo o Teste em seu turno. A Mantanegra pode prender apenas um alvo desta forma."
+    }
+  ]
+}

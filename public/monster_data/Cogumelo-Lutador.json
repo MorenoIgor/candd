@@ -1,0 +1,26 @@
+{
+  "nome": "Cogumelo-Lutador",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 10,
+  "vida": 6,
+  "resistencia": "",
+  "imunidade": "veneno",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Pancada",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "CogumeloLutador",
+  "habilidades": [
+    {
+      "titulo": "Camuflagem",
+      "texto": "Enquanto o Cogumelo-Lutador estiver parado, é indistinguível de um cogumelo comum."
+    },
+    {
+      "titulo": "Veneno",
+      "texto": "Os ataques de mordida do Cogumelo-Lutador causam 1d10 dividido pela metade de dano de veneno adicional ao alvo."
+    }
+  ]
+}

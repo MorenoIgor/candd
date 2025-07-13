@@ -1,0 +1,30 @@
+{
+  "nome": "Mímico",
+  "nivel": 2,
+  "pa": 1,
+  "defesa": 12,
+  "vida": 11,
+  "resistencia": "",
+  "imunidade": "ácido",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Língua, Mordida",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Mímico",
+  "habilidades": [
+    {
+      "titulo": "Camuflagem",
+      "texto": "Enquanto o Mímico estiver parado, é indistinguível de um objeto comum."
+    },
+    {
+      "titulo": "Grudento",
+      "texto": "Ao sofrer um ataque de língua do Mímico o alvo deve fazer um Teste de Força ou Destreza com Dificuldade 12, com Desvantagem. Em uma falha o alvo fica preso e o Mímico terá Vantagem em novos ataques contra este alvo até que ele se solte, repetindo o Teste em seu turno, ainda com Desvantagem. O Mímico pode prender apenas um alvo desta forma."
+    },
+    {
+      "titulo": "Mordida Ácida",
+      "texto": "Os ataques de mordida do Mímico causam 1d10 de dano de ácido adicional."
+    }
+  ]
+}

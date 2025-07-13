@@ -1,0 +1,30 @@
+{
+  "nome": "Tapete-Vivo",
+  "nivel": 2,
+  "pa": 1,
+  "defesa": 12,
+  "vida": 12,
+  "resistencia": "",
+  "imunidade": "veneno, psíquico",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Enrolar",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "TapeteVivo",
+  "habilidades": [
+    {
+      "titulo": "Camuflagem",
+      "texto": "Enquanto o Tapete-Vivo estiver parado, é indistinguível de um tapete comum."
+    },
+    {
+      "titulo": "Envolver",
+      "texto": "Um alvo deve fazer um Teste de Constituição com Dificuldade 12. Em uma falha o alvo fica preso e sofre 1d10 de dano por turno até que se solte, repetindo o Teste em seu turno. O Tapete-Vivo pode envolver apenas um alvo desta forma."
+    },
+    {
+      "titulo": "Transferir Dano",
+      "texto": "Se o Tapete-Vivo estiver envolvendo um alvo e sofrer dano, metade do dano sofrido vai para o alvo envolto e metade para o Tapete-Vivo."
+    }
+  ]
+}

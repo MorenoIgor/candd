@@ -1,0 +1,26 @@
+{
+  "nome": "Diabrete",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 13,
+  "vida": 6,
+  "resistencia": "gelo, armas que não sejam feitas de prata",
+  "imunidade": "fogo, veneno",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Ferrão",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Diabrete",
+  "habilidades": [
+    {
+      "titulo": "Veneno",
+      "texto": "Os ataques do Diabrete causam 1d10 dividido pela metade de dano de veneno adicional ao alvo."
+    },
+    {
+      "titulo": "Inivisibilidade",
+      "texto": "O Diabrete fica invisível, causando Desvantagem em ataques contra ele até que seja atingido."
+    }
+  ]
+}

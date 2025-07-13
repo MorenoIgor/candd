@@ -1,0 +1,22 @@
+{
+  "nome": "Papa-Pedra",
+  "nivel": 5,
+  "pa": 3,
+  "defesa": 19,
+  "vida": 30,
+  "resistencia": "perfuração e corte de armas não-mágicas",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Garra, Mordida",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "PapaPedra",
+  "habilidades": [
+    {
+      "titulo": "Sentir Tesouro",
+      "texto": "o Papa-Pedra atacará o alvo em posse da maior pedra preciosa ou maior quantidade de metal precioso na área, recebendo Vantagem nesses ataques."
+    }
+  ]
+}

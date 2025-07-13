@@ -1,0 +1,26 @@
+{
+  "nome": "Dragão Adulto",
+  "nivel": 10,
+  "pa": 5,
+  "defesa": 19,
+  "vida": 70,
+  "resistencia": "",
+  "imunidade": "fogo",
+  "vulnerabilidade": "",
+  "tamanho": 3,
+  "arma": "Garras, Mordida, Cauda",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Black Dragon 2",
+  "habilidades": [
+    {
+      "titulo": "Presença Aterradora",
+      "texto": "Um alvo deve fazer um Teste de Sabedoria com Dificuldade 20. Em uma falha ele fica imediatamente paralisado, incapaz de agir. Em seus próximo turnos ele deve repetir o Teste. Se tiver sucesso o efeito se encerra."
+    },
+    {
+      "titulo": "Bafo de Fogo",
+      "texto": "Um alvo deve fazer um Teste de Destreza com Dificuldade 20. Em uma falha ele sofre 10d10 de dano de fogo."
+    }
+  ]
+}

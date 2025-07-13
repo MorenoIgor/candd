@@ -1,0 +1,30 @@
+{
+  "nome": "Devorador-Demente",
+  "nivel": 5,
+  "pa": 3,
+  "defesa": 14,
+  "vida": 30,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Mordida, Tentáculo",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Otyugh",
+  "habilidades": [
+    {
+      "titulo": "Telepatia",
+      "texto": "O Devorador-Demente consegue transmitir mensagens simples telepaticamente para quaisquer criaturas inteligentes ao redor. O Devorador-Demente não é inteligente o suficiente para entender mensagens enviadas de volta."
+    },
+    {
+      "titulo": "Constrição",
+      "texto": "Ao sofrer um ataque de tentáculo do Devorador-Demente o alvo deve fazer um Teste de Força ou Destreza com Dificuldade 15. Em uma falha o alvo fica preso e o Devorador-Demente terá Vantagem em novos ataques contra este alvo até que ele se solte, repetindo o Teste em seu turno. O Devorador-Demente pode prender até três alvos desta forma."
+    },
+    {
+      "titulo": "Doença",
+      "texto": "Ao sofrer dano do Devorador-Demente um alvo deve fazer um Teste de Constitução com Dificuldade 15. Em uma falha ele não poderá curar Vida até que se livre da doença, seja por tratamento natural ou Magias."
+    }
+  ]
+}

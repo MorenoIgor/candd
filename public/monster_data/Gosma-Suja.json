@@ -1,0 +1,26 @@
+{
+  "nome": "Gosma-Suja",
+  "nivel": 4,
+  "pa": 2,
+  "defesa": 10,
+  "vida": 22,
+  "resistencia": "ácido, gelo, elétrico, corte",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Pancada",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "GosmaSuja",
+  "habilidades": [
+    {
+      "titulo": "Corrosão",
+      "texto": "Os ataques da Gosma-Suja causam a armadura ou escudo do alvo perder 1 ponto de Defesa. Se a Defesa chegar a 10 a armadura é destruída, e escudos se despedaçam se seu bônus chegar a 0. Igualmente, armas não-mágicas usadas diretamente contra a Gosma-Suja sofrem -1 em seu dano permanentemente. Se chegarem a -3, são destruídas."
+    },
+    {
+      "titulo": "Divisão",
+      "texto": "Se a Gosma-Suja sofrer dano elétrico ou de corte, ela se dividirá em duas, com cada uma tendo metade da Vida da anterior. As novas Gosma-Sujas também podem se dividir. Se a Gosma-Suja tiver apenas 1 de Vida, ela não se divide."
+    }
+  ]
+}

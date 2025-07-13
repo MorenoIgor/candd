@@ -1,0 +1,22 @@
+{
+  "nome": "Zumbi",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 10,
+  "vida": 8,
+  "resistencia": "",
+  "imunidade": "veneno",
+  "vulnerabilidade": "divino",
+  "tamanho": 1,
+  "arma": "Pancada",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Zumbi",
+  "habilidades": [
+    {
+      "titulo": "Implacável",
+      "texto": "Uma vez por combate, quando o Zumbi for reduzido a 0 de Vida, ele fica com 1 de Vida, a não ser que tenha sofrido dano divino."
+    }
+  ]
+}

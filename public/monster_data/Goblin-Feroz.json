@@ -1,0 +1,22 @@
+{
+  "nome": "Goblin-Feroz",
+  "nivel": 2,
+  "pa": 1,
+  "defesa": 18,
+  "vida": 9,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Espada, Arco",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "GoblinFeroz",
+  "habilidades": [
+    {
+      "titulo": "Ferocidade",
+      "texto": "Os ataques do Goblin-Feroz causam 1d10 adicional de dano."
+    }
+  ]
+}

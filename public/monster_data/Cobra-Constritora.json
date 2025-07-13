@@ -1,0 +1,22 @@
+{
+  "nome": "Cobra-Constritora",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 12,
+  "vida": 11,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Mordida, Constrição",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "CobraConstritora",
+  "habilidades": [
+    {
+      "titulo": "Constrição",
+      "texto": "Ao sofrer um ataque de constrição da Cobra-Constritora o alvo deve fazer um Teste de Força ou Destreza com Dificuldade 11. Em uma falha o alvo fica preso e a Cobra-Constritora terá Vantagem em novos ataques contra este alvo até que ele se solte, repetindo o Teste em seu turno. A Cobra-Constritora só pode prender um alvo desta forma."
+    }
+  ]
+}

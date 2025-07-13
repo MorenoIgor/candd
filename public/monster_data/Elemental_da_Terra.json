@@ -1,0 +1,22 @@
+{
+  "nome": "Elemental da Terra",
+  "nivel": 5,
+  "pa": 3,
+  "defesa": 17,
+  "vida": 35,
+  "resistencia": "armas não-mágicas",
+  "imunidade": "veneno",
+  "vulnerabilidade": "sônico",
+  "tamanho": 2,
+  "arma": "Pancada",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "ElementaldaTerra",
+  "habilidades": [
+    {
+      "titulo": "Destruidor",
+      "texto": "O Elemental da Terra causa o dobro de dano a objetos e estruturas."
+    }
+  ]
+}

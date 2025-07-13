@@ -1,0 +1,26 @@
+{
+  "nome": "Dríade",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 11,
+  "vida": 6,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Cajado",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Dríade",
+  "habilidades": [
+    {
+      "titulo": "Conjuradora Natural",
+      "texto": "a Dríade pode conjurar Magias Naturais até o nível 1. A Dificuldade para evitar seus efeitos é 11."
+    },
+    {
+      "titulo": "Encantamento",
+      "texto": "Um alvo deve fazer um Teste de Sabedoria com Dificuldade 11. Em uma falha ele fica fascinado pela Dríade, incapaz de agir. Em seus próximo turnos ele deve repetir o Teste. Se tiver sucesso o efeito se encerra."
+    }
+  ]
+}

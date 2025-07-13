@@ -1,0 +1,26 @@
+{
+  "nome": "Ursomem",
+  "nivel": 5,
+  "pa": 3,
+  "defesa": 11,
+  "vida": 20,
+  "resistencia": "armas que não sejam feitas de prata",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Machado",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Ursomem",
+  "habilidades": [
+    {
+      "titulo": "Licantropo",
+      "texto": "O Ursomem se transforma em um urso humanoide ou volta a sua forma original. O Ursomem não é um combatente em sua forma original, e retorna a essa forma se chegar a 0 de Vida."
+    },
+    {
+      "titulo": "Maldição",
+      "texto": "Se um alvo for atingido por um ataque de mordida do Ursomem deve fazer um Teste de Constituição com Dificuldade 15. Em uma falha será amaldiçoado com licantropia, transformando-se num Ursomem."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "nome": "Anão das Cavernas",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 15,
+  "vida": 8,
+  "resistencia": "veneno",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Martelo, Lança",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "AnãodasCavernas",
+  "habilidades": [
+    {
+      "titulo": "Crescer",
+      "texto": "O Anão das Cavernas dobra de tamanho, causando 1d10 de dano adicional em seus ataques."
+    },
+    {
+      "titulo": "Inivisibilidade",
+      "texto": "O Anão das Cavernas fica invisível, causando Desvantagem em ataques contra ele até que seja atingido."
+    }
+  ]
+}

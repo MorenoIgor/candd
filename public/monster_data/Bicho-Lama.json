@@ -1,0 +1,22 @@
+{
+  "nome": "Bicho-Lama",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 10,
+  "vida": 6,
+  "resistencia": "gelo",
+  "imunidade": "fogo, veneno",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Pancada",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "BichoLama",
+  "habilidades": [
+    {
+      "titulo": "Lama",
+      "texto": "Um alvo deve fazer um Teste de Destreza com Dificuldade 11. Em uma falha o alvo fica cego até limpar a lama de seus olhos."
+    }
+  ]
+}

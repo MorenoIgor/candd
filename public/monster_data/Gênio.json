@@ -1,0 +1,26 @@
+{
+  "nome": "Gênio",
+  "nivel": 8,
+  "pa": 4,
+  "defesa": 17,
+  "vida": 50,
+  "resistencia": "",
+  "imunidade": "elétrico, sônico",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Cimitarra",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Gênio",
+  "habilidades": [
+    {
+      "titulo": "Conjurador Arcano",
+      "texto": "O Gênio pode conjurar Magias Arcanas até o nível 7. A Dificuldade para evitar seus efeitos é 18."
+    },
+    {
+      "titulo": "Tornado",
+      "texto": "Um alvo deve fazer um Teste de Força com Dificuldade 18. Em uma falha ele é arremessado para outra área de combate, sofrendo 4d10 de dano."
+    }
+  ]
+}

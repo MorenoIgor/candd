@@ -40,52 +40,78 @@ export default function StatBlock({stats}) {
                 stats.tier == 1 ? "" : ` (${tierTitle[stats.tier]})`
             }</h2>
             <img className="monsterImage" src={`/art/mikoarc/${stats.imagem}.png`}></img>
-            <span className="monsterP">
-          <span className="boldFont">Nível:</span> {stats.nivel} <br />
-          <span className="boldFont">PA:</span> {
-            paAtual == stats.pa ? stats.pa : `${paAtual}/${stats.pa}`
-          }
-          <button className={'plusMinusButton smallButton ' + (paAtual == 0 ? 'disabledButton' : '')}  onClick={
-            () => {
-                setPaAtual(changeNumber(paAtual,-1,0,stats.pa))
-            }
-          }>-</button>
-          <button className={'plusMinusButton smallButton ' + (paAtual == stats.pa ? 'disabledButton' : '')}  onClick={
-            () => {
-                setPaAtual(changeNumber(paAtual,1,0,stats.pa))
-            }
-          }>+</button> <br />
-          <span className="boldFont">Defesa:</span> {stats.defesa} <br />
-          <span className="boldFont">Vida:</span> {
-            vidaAtual == stats.vida ? stats.vida : `${vidaAtual}/${stats.vida}`
-          } 
-          <button className={'plusMinusButton smallButton ' + (vidaAtual == 0 ? 'disabledButton' : '')}  onClick={
-            () => {
-                setVidaAtual(changeNumber(vidaAtual,-1,0,stats.vida))
-            }
-          }>-</button>
-          <button className={'plusMinusButton smallButton ' + (vidaAtual == stats.vida ? 'disabledButton' : '')}  onClick={
-            () => {
-                setVidaAtual(changeNumber(vidaAtual,1,0,stats.vida))
-            }
-          }>+</button> <br />
-            {
-            (stats.resistencia == "") ? "" : <span><span className="boldFont">Resistência:</span> {stats.resistencia} <br /></span>
-            }
-            {
-            (stats.imunidade == "") ? "" : <span><span className="boldFont">Imunidade:</span> {stats.imunidade} <br /></span>
-            }
-            {
-            (stats.vulnerabilidade == "") ? "" : <span><span className="boldFont">Vulnerabilidade:</span> {stats.vulnerabilidade} <br /></span>
-            }
-          <span className="boldFont">Ataque:</span> +{stats.nivel} 
-          <MiniRoller amount="1" die="d20" modifier={stats.nivel} /> ({stats.tamanho}{stats.arma}+{stats.nivel}) 
-          <MiniRoller amount={stats.tamanho} die={stats.arma} modifier={stats.nivel} /> <br />
-          </span>
+            <div className="statBlockContainer">
+                <div className="statBlockLeft">
+                    <span className="boldFont">Nível:</span> {stats.nivel} <br />
+                    <span className="boldFont">PA:</span> {
+                        paAtual == stats.pa ? stats.pa : `${paAtual}/${stats.pa}`
+                    }
+                    <button className={'plusMinusButton ' + (paAtual == 0 ? 'disabledButton' : '')}  onClick={
+                        () => {
+                            setPaAtual(changeNumber(paAtual,-1,0,stats.pa))
+                        }
+                    }>-</button>
+                    <button className={'plusMinusButton ' + (paAtual == stats.pa ? 'disabledButton' : '')}  onClick={
+                        () => {
+                            setPaAtual(changeNumber(paAtual,1,0,stats.pa))
+                        }
+                    }>+</button>
+                    <button className={'plusMinusButton ' + (paAtual == stats.pa ? 'disabledButton' : '')}  onClick={
+                        () => {
+                            setPaAtual(changeNumber(paAtual,10,0,stats.pa))
+                        }
+                    }>N</button>
+                </div>
+                <div className="statBlockRight">
+                    <span className="boldFont">Defesa:</span> {stats.defesa} <br />
+                    <span className="boldFont">Vida:</span> {
+                        vidaAtual == stats.vida ? stats.vida : `${vidaAtual}/${stats.vida}`
+                    } 
+                    <button className={'plusMinusButton ' + (vidaAtual == 0 ? 'disabledButton' : '')}  onClick={
+                        () => {
+                            setVidaAtual(changeNumber(vidaAtual,-1,0,stats.vida))
+                        }
+                    }>-</button>
+                    <button className={'plusMinusButton ' + (vidaAtual == stats.vida ? 'disabledButton' : '')}  onClick={
+                        () => {
+                            setVidaAtual(changeNumber(vidaAtual,1,0,stats.vida))
+                        }
+                    }>+</button>
+                    <button className={'plusMinusButton ' + (vidaAtual == 0 ? 'disabledButton' : '')}  onClick={
+                        () => {
+                            setVidaAtual(changeNumber(vidaAtual,-5,0,stats.vida))
+                        }
+                    }>-5</button>
+                    <button className={'plusMinusButton ' + (vidaAtual == stats.vida ? 'disabledButton' : '')}  onClick={
+                        () => {
+                            setVidaAtual(changeNumber(vidaAtual,5,0,stats.vida))
+                        }
+                    }>+5</button>
+                </div>
+                <br />
+                <div className="statBlockBottom">
+                        {
+                        (stats.resistencia == "") ? "" : <span><span className="boldFont">Resistência:</span> {stats.resistencia} <br /></span>
+                        }
+                        {
+                        (stats.imunidade == "") ? "" : <span><span className="boldFont">Imunidade:</span> {stats.imunidade} <br /></span>
+                        }
+                        {
+                        (stats.vulnerabilidade == "") ? "" : <span><span className="boldFont">Vulnerabilidade:</span> {stats.vulnerabilidade} <br /></span>
+                        }
+                    <span className="boldFont">Ataque: </span> {stats.arma} +{stats.nivel} 
+                    <MiniRoller amount="1" die="d20" modifier={stats.nivel} /> ({stats.tamanho}{stats.dano}+{stats.nivel}) 
+                    <MiniRoller amount={stats.tamanho} die={stats.dano} modifier={stats.nivel} /> <br />
+                </div>
+            </div>
+
+          
+          {/* <h2 className="boldFont habilidades">Poderes</h2> */}
             {
                 stats.habilidades.map((hb,index) => (
                     <span className="monsterP" key={index}>
-                    <span key = {hb.titulo} className="boldFont">{hb.titulo + ": "}</span>
+                    <h3 className="specialAbility">{hb.titulo}</h3>
+                    <span className="monsterP">
                     {
                     breakText(hb.texto).map(
                         (t,index) => (
@@ -99,6 +125,7 @@ export default function StatBlock({stats}) {
                         
                     )
                     }
+                    </span>
                 </span>
                 ))
             }

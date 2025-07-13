@@ -1,0 +1,22 @@
+{
+  "nome": "Povo-Hiena",
+  "nivel": 3,
+  "pa": 1,
+  "defesa": 15,
+  "vida": 8,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Machado, Lança, Mordida",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "PovoHiena",
+  "habilidades": [
+    {
+      "titulo": "Ira",
+      "texto": "Se o Povo-Hiena reduzir um alvo a 0 de Vida, o Povo-Hiena pode imediatamente realizar um ataque adicional contra outro alvo na mesma área."
+    }
+  ]
+}

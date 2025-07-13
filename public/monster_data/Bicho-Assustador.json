@@ -1,0 +1,30 @@
+{
+  "nome": "Bicho-Assustador",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 13,
+  "vida": 6,
+  "resistencia": "gelo, fogo, elétrico, armas não-mágicas",
+  "imunidade": "veneno",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Garras, Mordida",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "BichoAssustador",
+  "habilidades": [
+    {
+      "titulo": "Veneno",
+      "texto": "Os ataques do Bicho-Assustador causam 1d10 de dano de veneno adicional ao alvo."
+    },
+    {
+      "titulo": "Assustar",
+      "texto": "Um alvo deve fazer um Teste de Sabedoria com Dificuldade 11. Em uma falha, ficará assustado, sofrendo Desvantagem em quaisquer Testes contra o Bicho-Assustador."
+    },
+    {
+      "titulo": "Inivisibilidade",
+      "texto": "O Bicho-Assustador fica invisível, causando Desvantagem em ataques contra ele até que seja atingido."
+    }
+  ]
+}

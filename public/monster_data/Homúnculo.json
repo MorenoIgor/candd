@@ -1,0 +1,22 @@
+{
+  "nome": "Homúnculo",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 13,
+  "vida": 6,
+  "resistencia": "",
+  "imunidade": "veneno",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Mordida",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Homúnculo",
+  "habilidades": [
+    {
+      "titulo": "Mordida Venenosa",
+      "texto": "Um alvo que sofra o dano de mordida do Homúnculo deve fazer um Teste de Constituição com Dificuldade 11. Em uma falha o alvo cai em um sono profundo imediatamente, permanecendo assim por uma hora ou até que seja acordado."
+    }
+  ]
+}

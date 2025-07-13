@@ -1,0 +1,26 @@
+{
+  "nome": "Cubo Gelatinoso",
+  "nivel": 2,
+  "pa": 1,
+  "defesa": 10,
+  "vida": 20,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Pseudópode",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "CuboGelatinoso",
+  "habilidades": [
+    {
+      "titulo": "Translúcido",
+      "texto": "Se o Cubo Gelatinoso não tiver sido detectado, quaisquer Testes para perceber sua presença são feitos com Desvantagem."
+    },
+    {
+      "titulo": "Envolver",
+      "texto": "Um alvo deve fazer um Teste de Destreza com Dificuldade 12. Em uma falha ele sofre 1d10 de dano de ácido imediatamente e é puxado para dentro do Cubo Gelatinoso. Um alvo preso desta forma não consegue agir. O Teste é repetido a cada novo turno do alvo, com uma falha causando 1d10 de dano adicional. Um sucesso faz com que o alvo se liberte."
+    }
+  ]
+}

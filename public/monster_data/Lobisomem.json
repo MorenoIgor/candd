@@ -1,0 +1,26 @@
+{
+  "nome": "Lobisomem",
+  "nivel": 3,
+  "pa": 2,
+  "defesa": 12,
+  "vida": 14,
+  "resistencia": "armas que não sejam feitas de prata",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Garras, Mordida",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Lobisomem",
+  "habilidades": [
+    {
+      "titulo": "Licantropo",
+      "texto": "O Lobisomem se transforma em um lobo humanoide ou volta a sua forma original. O Lobisomem não é um combatente em sua forma original, e retorna a essa forma se chegar a 0 de Vida."
+    },
+    {
+      "titulo": "Maldição",
+      "texto": "Se um alvo for atingido por um ataque de mordida do Lobisomem deve fazer um Teste de Constituição com Dificuldade 13. Em uma falha será amaldiçoado com licantropia, transformando-se num Lobisomem."
+    }
+  ]
+}

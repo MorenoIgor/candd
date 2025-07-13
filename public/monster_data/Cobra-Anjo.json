@@ -1,0 +1,30 @@
+{
+  "nome": "Cobra-Anjo",
+  "nivel": 4,
+  "pa": 2,
+  "defesa": 19,
+  "vida": 17,
+  "resistencia": "divino",
+  "imunidade": "psíquico, armas não-mágicas",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Mordida, Constrição",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "CobraAnjo",
+  "habilidades": [
+    {
+      "titulo": "Veneno",
+      "texto": "Os ataques de mordida da Cobra-Anjo causam 1d10 de dano de veneno adicional ao alvo."
+    },
+    {
+      "titulo": "Constrição",
+      "texto": "Ao sofrer um ataque de constrição da Cobra-Anjo o alvo deve fazer um Teste de Força ou Destreza com Dificuldade 14. Em uma falha o alvo fica preso e a Cobra-Anjo terá Vantagem em novos ataques contra este alvo até que ele se solte, repetindo o Teste em seu turno. A Cobra-Anjo só pode prender um alvo desta forma."
+    },
+    {
+      "titulo": "Conjuradora Divina",
+      "texto": "a Cobra-Anjo pode conjurar Magias Divinas até o nível 4. A Dificuldade para evitar seus efeitos é 14."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "nome": "Peixe-Pescador",
+  "nivel": 2,
+  "pa": 1,
+  "defesa": 12,
+  "vida": 7,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Garra, Mordida, Lança",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "PeixePescador",
+  "habilidades": [
+    {
+      "titulo": "Cheiro de Sangue",
+      "texto": "o Peixe-Pescador tem Vantagem nos ataques contra um alvo que não esteja com todos os seus pontos de Vida."
+    }
+  ]
+}

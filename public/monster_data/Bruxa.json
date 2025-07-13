@@ -1,0 +1,30 @@
+{
+  "nome": "Bruxa",
+  "nivel": 3,
+  "pa": 2,
+  "defesa": 17,
+  "vida": 14,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Garras",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Bruxa",
+  "habilidades": [
+    {
+      "titulo": "Conjuradora Arcana",
+      "texto": "a Bruxa pode conjurar Magias Arcanas até o nível 3. A Dificuldade para evitar seus efeitos é 13."
+    },
+    {
+      "titulo": "Ilusão",
+      "texto": "A Bruxa assume uma aparência diferente. Um Teste de Sabedoria com Dificuldade 13, ou interação física com a Bruxa revela a farsa."
+    },
+    {
+      "titulo": "Inivisibilidade",
+      "texto": "A Bruxa fica invisível, causando Desvantagem em ataques contra ela até que seja atingida."
+    }
+  ]
+}

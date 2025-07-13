@@ -1,0 +1,22 @@
+{
+  "nome": "Elemental do Ar",
+  "nivel": 5,
+  "pa": 3,
+  "defesa": 15,
+  "vida": 20,
+  "resistencia": "elétrico, sônico, armas não-mágicas",
+  "imunidade": "veneno",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Lufada",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "ElementaldoAr",
+  "habilidades": [
+    {
+      "titulo": "Tornado",
+      "texto": "Um alvo deve fazer um Teste de Força com Dificuldade 15. Em uma falha ele é arremessado para outra área de combate, sofrendo 2d10 de dano."
+    }
+  ]
+}

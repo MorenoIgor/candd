@@ -1,0 +1,26 @@
+{
+  "nome": "Unicórnio",
+  "nivel": 5,
+  "pa": 3,
+  "defesa": 12,
+  "vida": 20,
+  "resistencia": "",
+  "imunidade": "veneno",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Chifre, Coice",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Unicórnio",
+  "habilidades": [
+    {
+      "titulo": "Conjurador Divino",
+      "texto": "O Unicórnio pode conjurar Magias Divinas até o nível 5. A Dificuldade para evitar seus efeitos é 15."
+    },
+    {
+      "titulo": "Galope",
+      "texto": "Se o Unicórnio se moveu para outra área no combate para atacar, os alvos sofrem 1d10 de dano adicional."
+    }
+  ]
+}

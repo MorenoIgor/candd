@@ -1,0 +1,22 @@
+{
+  "nome": "Bicho-Barbudo",
+  "nivel": 3,
+  "pa": 2,
+  "defesa": 13,
+  "vida": 11,
+  "resistencia": "gelo, fogo, elétrico, armas não-mágicas",
+  "imunidade": "fogo, veneno",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Glaive",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "BichoBarbudo",
+  "habilidades": [
+    {
+      "titulo": "Veneno Potente",
+      "texto": "Um alvo atingido por um ataque do Bicho-Barbudo deve fazer um Teste de Constituição com Dificuldade 13 a cada novo turno do alvo. Em uma falha sofrerá 1d10 de dano de veneno adicional, mas um sucesso encerra o efeito."
+    }
+  ]
+}

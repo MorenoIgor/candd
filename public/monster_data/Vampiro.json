@@ -1,0 +1,42 @@
+{
+  "nome": "Vampiro",
+  "nivel": 9,
+  "pa": 5,
+  "defesa": 16,
+  "vida": 41,
+  "resistencia": "armas não-mágicas",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Garras, Mordida",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Vampiro",
+  "habilidades": [
+    {
+      "titulo": "Metamorfo",
+      "texto": "O Vampiro se transforma em um morcego, lobo ou névoa, ou volta a sua forma original. Suas estatísticas de jogo permanecem as mesmas, e o Vampiro retorna a sua forma original se chegar a 0 de Vida."
+    },
+    {
+      "titulo": "Encantar",
+      "texto": "Um alvo deve fazer um Teste de Sabedoria com Dificuldade 19. Em uma falha ele fica imediatamente encantado, incapaz de agir por conta própria, usando suas ações para se aproximar do Vampiro. Em seus próximo turnos ele deve repetir o Teste. Se tiver sucesso o efeito se encerra."
+    },
+    {
+      "titulo": "Maldição",
+      "texto": "Se um alvo for atingido por um ataque de mordida do Vampiro deve fazer um Teste de Constituição com Dificuldade 19. Em uma falha sofre 9d10 de dano. Se isto o levar a 0 de Vida ou menos, ele morre e se levanta como um Vampiro."
+    },
+    {
+      "titulo": "Regeneração",
+      "texto": "O Vampiro recupera 1d10 de Vida a cada nova rodada, contanto que tenha pelo menos 1 de Vida. Este efeito é cancelado se o Vampiro estiver sob o efeito de uma de suas fraquezas."
+    },
+    {
+      "titulo": "Fraquezas",
+      "texto": "O Vampiro terá Desvantagem em suas ações se estiver em um ambiente para o qual não foi convidado, se cruzar água corrente ou se sentir o cheiro de alho. O Vampiro sofre 4d10 de dano de fogo se iniciar seu turno sob a luz do sol. Se uma estaca de madeira for cravada em seu peito, o Vampiro ficará paralisado."
+    },
+    {
+      "titulo": "Imortal",
+      "texto": "O Vampiro só é realmente morto se chegar a 0 de Vida com uma estaca de madeira cravada em seu peito ou por dano de luz do sol."
+    }
+  ]
+}

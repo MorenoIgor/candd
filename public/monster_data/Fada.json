@@ -1,0 +1,26 @@
+{
+  "nome": "Fada",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 15,
+  "vida": 6,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Espadinha, Arquinho",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Fada",
+  "habilidades": [
+    {
+      "titulo": "Sono",
+      "texto": "Um alvo atingido por uma flecha da Fada precisa fazer um Teste de Constituição com Dificuldade 11. Em uma falha o alvo cai em um sono profundo."
+    },
+    {
+      "titulo": "Inivisibilidade",
+      "texto": "A Fada fica invisível, causando Desvantagem em ataques contra ela até que seja atingida."
+    }
+  ]
+}

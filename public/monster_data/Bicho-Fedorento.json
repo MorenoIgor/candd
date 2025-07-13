@@ -1,0 +1,22 @@
+{
+  "nome": "Bicho-Fedorento",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 11,
+  "vida": 6,
+  "resistencia": "gelo, fogo, elétrico",
+  "imunidade": "veneno",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Garras, Mordida",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "BichoFedorento",
+  "habilidades": [
+    {
+      "titulo": "Catinga",
+      "texto": "Um alvo deve fazer um Teste de Constituição com Dificuldade 11. Em uma falha sofrerá 1d10 dividido pela metade de dano de veneno, e terá Desvantagem em quaisquer Testes enquanto conseguir sentir o fedor do Bicho-Fedorento."
+    }
+  ]
+}

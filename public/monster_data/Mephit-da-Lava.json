@@ -1,0 +1,26 @@
+{
+  "nome": "Mephit-da-Lava",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 12,
+  "vida": 6,
+  "resistencia": "",
+  "imunidade": "veneno, fogo",
+  "vulnerabilidade": "gelo",
+  "tamanho": 1,
+  "arma": "Garras",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "MephitdaLava",
+  "habilidades": [
+    {
+      "titulo": "Explosão Ígnea",
+      "texto": "Quando o Mephit-da-Lava morre, todos na mesma área de combate devem fazer um Teste de Constituição com Dificuldade 11. Em uma falha, sofrem 1d10 de dano de fogo."
+    },
+    {
+      "titulo": "Sopro de Fogo",
+      "texto": "Um alvo deve fazer um Teste de Destreza com Dificuldade 11. Em uma falha, sofre 1d10 de dano de fogo."
+    }
+  ]
+}

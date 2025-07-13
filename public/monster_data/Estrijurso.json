@@ -1,0 +1,22 @@
+{
+  "nome": "Estrijurso",
+  "nivel": 3,
+  "pa": 2,
+  "defesa": 13,
+  "vida": 19,
+  "resistencia": "",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Bico, Garras",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Owlbear",
+  "habilidades": [
+    {
+      "titulo": "Salto Mortal",
+      "texto": "Um alvo deve fazer um Teste de Força ou Destreza com Dificuldade 13. Em uma falha ele sofre 1d10 de dano e é derrubado."
+    }
+  ]
+}

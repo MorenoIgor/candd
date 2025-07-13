@@ -1,0 +1,26 @@
+{
+  "nome": "Mephit-do-Gelo",
+  "nivel": 1,
+  "pa": 1,
+  "defesa": 12,
+  "vida": 6,
+  "resistencia": "",
+  "imunidade": "veneno, gelo",
+  "vulnerabilidade": "impacto, fogo",
+  "tamanho": 1,
+  "arma": "Garras",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "MephitdoGelo",
+  "habilidades": [
+    {
+      "titulo": "Explosão Gelada",
+      "texto": "Quando o Mephit-do-Gelo morre, todos na mesma área de combate devem fazer um Teste de Constituição com Dificuldade 11. Em uma falha, sofrem 1d10 de dano de gelo."
+    },
+    {
+      "titulo": "Sopro de Fogo",
+      "texto": "Um alvo deve fazer um Teste de Destreza com Dificuldade 11. Em uma falha, sofre 1d10 de dano de gelo."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "nome": "Porcomem",
+  "nivel": 4,
+  "pa": 2,
+  "defesa": 11,
+  "vida": 13,
+  "resistencia": "armas que não sejam feitas de prata",
+  "imunidade": "",
+  "vulnerabilidade": "",
+  "tamanho": 1,
+  "arma": "Pancada, Presas",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Porcomem",
+  "habilidades": [
+    {
+      "titulo": "Licantropo",
+      "texto": "O Porcomem se transforma em um javali humanoide ou volta a sua forma original. O Porcomem não é um combatente em sua forma original, e retorna a essa forma se chegar a 0 de Vida."
+    },
+    {
+      "titulo": "Maldição",
+      "texto": "Se um alvo for atingido por um ataque de presas do Porcomem deve fazer um Teste de Constituição com Dificuldade 14. Em uma falha será amaldiçoado com licantropia, transformando-se num Porcomem."
+    },
+    {
+      "titulo": "Investida",
+      "texto": "Um alvo deve fazer um Teste de Força com Dificuldade 14. Em uma falha ele é arremessado para outra área de combate, sofrendo 2d10 de dano."
+    },
+    {
+      "titulo": "Implacável",
+      "texto": "Uma vez por combate, quando o Porcomem for reduzido a 0 de Vida, ele fica com 1 de Vida."
+    }
+  ]
+}

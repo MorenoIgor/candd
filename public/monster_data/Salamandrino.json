@@ -1,0 +1,30 @@
+{
+  "nome": "Salamandrino",
+  "nivel": 4,
+  "pa": 2,
+  "defesa": 15,
+  "vida": 18,
+  "resistencia": "armas não-mágicas",
+  "imunidade": "fogo",
+  "vulnerabilidade": "",
+  "tamanho": 2,
+  "arma": "Lança, Cauda",
+  "dano": "d6",
+  "tier": 1,
+  "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+  "imagem": "Salamandrino",
+  "habilidades": [
+    {
+      "titulo": "Aura de Calor",
+      "texto": "uma criatura que acerte um ataque corpo-a-corpo contra o Salamandrino sofre 1d10 de dano de fogo."
+    },
+    {
+      "titulo": "Armas Incandescentes",
+      "texto": "os ataques do Salamandrino causam 1d10 de dano de fogo adicional."
+    },
+    {
+      "titulo": "Prisão Ígnea",
+      "texto": "Ao sofrer um ataque de cauda do Salamandrino o alvo deve fazer um Teste de Força ou Destreza com Dificuldade 14. Em uma falha o alvo fica preso, sofrendo 2d10 de dano de fogo por turno. O Salamandrino terá Vantagem em novos ataques contra este alvo até que ele se solte, repetindo o Teste em seu turno. O Salamandrino pode prender apenas um alvo desta forma."
+    }
+  ]
+}
