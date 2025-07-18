@@ -9,10 +9,10 @@
   "vulnerabilidade": "sônico",
   "tamanho": 2,
   "arma": "Pancada",
-  "dano": "d6",
+  "dano": "d8",
   "tier": 1,
   "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-  "imagem": "ElementaldaTerra",
+  "imagem": "Earth Elemental",
   "habilidades": [
     {
       "titulo": "Destruidor",

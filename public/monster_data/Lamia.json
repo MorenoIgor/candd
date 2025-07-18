@@ -9,14 +9,14 @@
   "vulnerabilidade": "",
   "tamanho": 2,
   "arma": "Garras, Espada",
-  "dano": "d6",
+  "dano": "d10",
   "tier": 1,
   "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
   "imagem": "Lamia",
   "habilidades": [
     {
       "titulo": "Conjuradora Arcana",
-      "texto": "a Lamia pode conjurar Magias Arcanas até o nível 4. A Dificuldade para evitar seus efeitos é 14."
+      "texto": "A Lamia pode conjurar Magias Arcanas até o nível 4. A Dificuldade para evitar seus efeitos é 14."
     },
     {
       "titulo": "Toque Intoxicante",

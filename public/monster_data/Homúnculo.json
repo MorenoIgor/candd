@@ -9,10 +9,10 @@
   "vulnerabilidade": "",
   "tamanho": 1,
   "arma": "Mordida",
-  "dano": "d6",
+  "dano": "1",
   "tier": 1,
   "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-  "imagem": "Homúnculo",
+  "imagem": "Homunculus",
   "habilidades": [
     {
       "titulo": "Mordida Venenosa",

@@ -9,10 +9,10 @@
   "vulnerabilidade": "",
   "tamanho": 2,
   "arma": "Chifres, Cascos",
-  "dano": "d6",
+  "dano": "d12",
   "tier": 1,
   "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-  "imagem": "TouroBlindado",
+  "imagem": "Gorgon",
   "habilidades": [
     {
       "titulo": "Bafo Petrificante",

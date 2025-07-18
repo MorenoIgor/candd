@@ -9,14 +9,14 @@
   "vulnerabilidade": "",
   "tamanho": 1,
   "arma": "Espada, Besta",
-  "dano": "d6",
+  "dano": "d8",
   "tier": 1,
   "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-  "imagem": "ElfodasCavernas",
+  "imagem": "Drow",
   "habilidades": [
     {
       "titulo": "Conjurador Arcano",
-      "texto": "o Elfo das Cavernas pode conjurar Magias Arcanas até o nível 1. A Dificuldade para evitar seus efeitos é 11."
+      "texto": "O Elfo das Cavernas pode conjurar Magias Arcanas até o nível 1. A Dificuldade para evitar seus efeitos é 11."
     }
   ]
 }

@@ -9,10 +9,10 @@
   "vulnerabilidade": "",
   "tamanho": 1,
   "arma": "Machado, Lança, Mordida",
-  "dano": "d6",
+  "dano": "d8",
   "tier": 1,
   "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-  "imagem": "PovoHiena",
+  "imagem": "Gnoll",
   "habilidades": [
     {
       "titulo": "Ira",

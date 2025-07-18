@@ -49,7 +49,11 @@ def csv_to_individual_json(csv_file_path, output_folder):
             monster_name = row['Nome'].strip()
             # CORREÇÃO DEFINITIVA DOS CAMPOS:
             arma = row.get('Arma', '').strip()  # Coluna Arma → campo arma
-            dano = row.get('Ataque', 'd6').strip()  # Coluna Ataque → campo dano
+            dano = row.get('Dano', 'd6').strip()  # Coluna Dano → campo dano
+            nome_original = row.get('Nome Original', '').strip()
+            
+            # Usar Nome Original exatamente como está no CSV para o campo imagem
+            imagem = nome_original if nome_original else monster_name
             
             monster = {
                 "nome": monster_name,
@@ -62,10 +66,10 @@ def csv_to_individual_json(csv_file_path, output_folder):
                 "vulnerabilidade": row.get('Vuln.', '').strip(),
                 "tamanho": safe_int(row.get('Tamanho'), 1),
                 "arma": arma,    # ← Coluna Arma do CSV
-                "dano": dano,    # ← Coluna Ataque do CSV
-                "tier": safe_int(row.get('Hab.'), 1),
+                "dano": dano,    # ← Coluna Dano do CSV
+                "tier": safe_int(row.get('Tier'), 1),
                 "texto": row.get('Texto', '').strip(),
-                "imagem": re.sub(r'[\W_]', '', monster_name.split('(')[0]),
+                "imagem": imagem,  # Mantém exatamente como está no CSV
                 "habilidades": parse_habilities(row.get('Hab.', ''), monster_name)
             }
             
@@ -73,7 +77,7 @@ def csv_to_individual_json(csv_file_path, output_folder):
             with open(os.path.join(output_folder, filename), 'w', encoding='utf-8') as json_file:
                 json.dump(monster, json_file, ensure_ascii=False, indent=2, sort_keys=False)
             
-            print(f"✓ {filename} criado | Arma: '{arma}' | Dano: '{dano}'")
+            print(f"✓ {filename} criado | Arma: '{arma}' | Dano: '{dano}' | Imagem: '{imagem}'")
 
 # Execução
 csv_to_individual_json(

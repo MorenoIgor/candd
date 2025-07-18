@@ -9,10 +9,10 @@
   "vulnerabilidade": "",
   "tamanho": 2,
   "arma": "Chifre, Coice",
-  "dano": "d6",
+  "dano": "d8",
   "tier": 1,
   "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-  "imagem": "Unicórnio",
+  "imagem": "Unicorn",
   "habilidades": [
     {
       "titulo": "Conjurador Divino",

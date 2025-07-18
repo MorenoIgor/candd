@@ -9,10 +9,10 @@
   "vulnerabilidade": "",
   "tamanho": 2,
   "arma": "Bico, Garras",
-  "dano": "d6",
+  "dano": "d8",
   "tier": 1,
   "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-  "imagem": "BichoAbutre",
+  "imagem": "Vrock",
   "habilidades": [
     {
       "titulo": "Esporos Venenosos",

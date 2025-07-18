@@ -16,7 +16,7 @@ export default function MainMenu({navigateFunction}) {
 
   const [menuItems,setMenuItems] = useState(new Array())
   const [pgList,setPgList] = useState(["a","b"])
-  const [menu,setMenu] = useState(false)
+  const [menu,setMenu] = useState(true)
 
   useEffect(() => {
     async function getChapterData() {
@@ -39,11 +39,7 @@ export default function MainMenu({navigateFunction}) {
       menu == true ? "/layout/closedbook.png" : "/layout/openbook.png"
     } ></img></span>
       <div id="sideBar" className={
-        menu == true ? "" : "invisible" 
-      } onDoubleClick={
-        () => {
-        setMenu(!menu)
-        }
+        menu == true ? "slide-in-element" : "slide-out-element" 
       }>
         {
           menuItems.map(
@@ -51,7 +47,7 @@ export default function MainMenu({navigateFunction}) {
               <p key={chap}>
               <span className="chapterLink"><a onClick = {
                 () => {
-                setMenu(false)
+                //setMenu(false)
                 navigateFunction(index,0)
                 }
               }>{chap}</a><br /></span>
@@ -62,7 +58,7 @@ export default function MainMenu({navigateFunction}) {
                   <span className="pageLink" key={pg}>
                   <a onClick = {
                 () => {
-                  setMenu(false)
+                  //setMenu(false)
                 navigateFunction(index,ind+1)
                 }
               }>{pg}</a> <br />

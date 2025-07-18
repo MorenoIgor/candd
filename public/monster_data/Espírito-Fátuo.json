@@ -9,10 +9,10 @@
   "vulnerabilidade": "",
   "tamanho": 1,
   "arma": "Choque",
-  "dano": "d6",
+  "dano": "d8",
   "tier": 1,
   "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-  "imagem": "EspíritoFátuo",
+  "imagem": "Wil o Wisp",
   "habilidades": [
     {
       "titulo": "Consumir Vida",

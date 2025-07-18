@@ -9,10 +9,10 @@
   "vulnerabilidade": "",
   "tamanho": 3,
   "arma": "Mordida, Cauda",
-  "dano": "d6",
+  "dano": "d12",
   "tier": 1,
   "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-  "imagem": "Dinossauro",
+  "imagem": "Tyrannosaurus Rex",
   "habilidades": [
     {
       "titulo": "Colossal",

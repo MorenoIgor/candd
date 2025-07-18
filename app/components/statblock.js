@@ -29,62 +29,121 @@ export default function StatBlock({stats}) {
     */
 
         const [vidaAtual, setVidaAtual] = useState(stats.vida)
+        const [vidaMax, setVidaMax] = useState(stats.vida)
         const [paAtual,setPaAtual] = useState(stats.pa)
+        const [paMax,setPaMax] = useState(stats.pa)
+        const [tierAtual,setTierAtual] = useState(1)
 
-    
+    function calculateTier(tier) {
+
+        switch (tier) {
+
+            case 0:
+                setVidaMax(stats.vida/2);
+                setVidaAtual(stats.vida/2);
+
+                setPaMax(stats.pa);
+                setPaAtual(stats.pa);
+            break;
+            case 1:
+                setVidaMax(stats.vida);
+                setVidaAtual(stats.vida);
+
+                setPaMax(stats.pa);
+                setPaAtual(stats.pa);
+            break;
+            case 2:
+                setVidaMax(stats.vida + Math.floor(stats.vida/2));
+                setVidaAtual(stats.vida + Math.floor(stats.vida/2));
+
+                setPaMax(stats.pa + 1);
+                setPaAtual(stats.pa + 1);
+            break;
+            case 3:
+                setVidaMax(stats.vida*2);
+                setVidaAtual(stats.vida*2);
+
+                setPaMax(stats.pa + 2);
+                setPaAtual(stats.pa + 2);
+            break;
+            case 4:
+                setVidaMax(stats.vida*3);
+                setVidaAtual(stats.vida*3);
+
+                setPaMax(stats.pa + 3);
+                setPaAtual(stats.pa + 3);
+            break;
+        }
+
+    }
+
 
     return (
         <main id="mainView">
-            <h2 className="statBlockName">{stats.nome} 
-            {
-                stats.tier == 1 ? "" : ` (${tierTitle[stats.tier]})`
-            }</h2>
+            <h2 className="statBlockName">{stats.nome}</h2>
+                <h3 className="tierTitle" style={{marginTop: "-10px"}}>({tierTitle[tierAtual]})</h3>
+                <h3 style={{textAlign: "center"}}><button className={'plusMinusButton ' + (tierAtual == 0 ? 'disabledButton' : '')}  onClick={
+                        () => {
+                            let number = changeNumber(tierAtual,-1,0,4)
+                            setTierAtual(number)
+                            calculateTier(number)
+                        }
+                    }>-</button>
+                    <button className={'plusMinusButton ' + (tierAtual == 4 ? 'disabledButton' : '')}  onClick={
+                        () => {
+                            let number = changeNumber(tierAtual,1,0,4)
+                            setTierAtual(number)
+                            calculateTier(number)
+                        }
+                    }>+</button></h3>
+            <div style={{height: "600px"}}>     
             <img className="monsterImage" src={`/art/mikoarc/${stats.imagem}.png`}></img>
+            </div>
             <div className="statBlockContainer">
                 <div className="statBlockLeft">
                     <span className="boldFont">Nível:</span> {stats.nivel} <br />
                     <span className="boldFont">PA:</span> {
-                        paAtual == stats.pa ? stats.pa : `${paAtual}/${stats.pa}`
+                        paAtual == paMax ? paMax : `${paAtual}/${paMax}`
                     }
                     <button className={'plusMinusButton ' + (paAtual == 0 ? 'disabledButton' : '')}  onClick={
                         () => {
-                            setPaAtual(changeNumber(paAtual,-1,0,stats.pa))
+                            setPaAtual(changeNumber(paAtual,-1,0,paMax))
                         }
                     }>-</button>
-                    <button className={'plusMinusButton ' + (paAtual == stats.pa ? 'disabledButton' : '')}  onClick={
+                    <button className={'plusMinusButton ' + (paAtual == paMax ? 'disabledButton' : '')}  onClick={
                         () => {
-                            setPaAtual(changeNumber(paAtual,1,0,stats.pa))
+                            setPaAtual(changeNumber(paAtual,1,0,paMax))
                         }
                     }>+</button>
-                    <button className={'plusMinusButton ' + (paAtual == stats.pa ? 'disabledButton' : '')}  onClick={
+                    <button className={'plusMinusButton ' + (paAtual == paMax ? 'disabledButton' : '')}  onClick={
                         () => {
-                            setPaAtual(changeNumber(paAtual,10,0,stats.pa))
+                            setPaAtual(changeNumber(paAtual,10,0,paMax))
                         }
                     }>N</button>
                 </div>
                 <div className="statBlockRight">
                     <span className="boldFont">Defesa:</span> {stats.defesa} <br />
                     <span className="boldFont">Vida:</span> {
-                        vidaAtual == stats.vida ? stats.vida : `${vidaAtual}/${stats.vida}`
+                        vidaAtual == vidaMax ? vidaMax : `${vidaAtual}/${vidaMax}`
                     } 
                     <button className={'plusMinusButton ' + (vidaAtual == 0 ? 'disabledButton' : '')}  onClick={
                         () => {
-                            setVidaAtual(changeNumber(vidaAtual,-1,0,stats.vida))
+                            setVidaAtual(changeNumber(vidaAtual,-1,0,vidaMax))
                         }
                     }>-</button>
-                    <button className={'plusMinusButton ' + (vidaAtual == stats.vida ? 'disabledButton' : '')}  onClick={
+                    <button className={'plusMinusButton ' + (vidaAtual == vidaMax ? 'disabledButton' : '')}  onClick={
                         () => {
-                            setVidaAtual(changeNumber(vidaAtual,1,0,stats.vida))
+                            setVidaAtual(changeNumber(vidaAtual,1,0,vidaMax))
                         }
                     }>+</button>
                     <button className={'plusMinusButton ' + (vidaAtual == 0 ? 'disabledButton' : '')}  onClick={
                         () => {
-                            setVidaAtual(changeNumber(vidaAtual,-5,0,stats.vida))
+                            setVidaAtual(changeNumber(vidaAtual,-5,0,vidaMax))
                         }
                     }>-5</button>
-                    <button className={'plusMinusButton ' + (vidaAtual == stats.vida ? 'disabledButton' : '')}  onClick={
+                    <button className={'plusMinusButton ' + (vidaAtual == vidaMax ? 'disabledButton' : '')}  onClick={
                         () => {
-                            setVidaAtual(changeNumber(vidaAtual,5,0,stats.vida))
+                            setVidaAtual(changeNumber(vidaAtual,5,0,vidaMax))
                         }
                     }>+5</button>
                 </div>
@@ -110,7 +169,7 @@ export default function StatBlock({stats}) {
             {
                 stats.habilidades.map((hb,index) => (
                     <span className="monsterP" key={index}>
-                    <h3 className="specialAbility">{hb.titulo}</h3>
+                    <h2 className="specialAbility" style={{marginLeft: "0px"}}>{hb.titulo}</h2>
                     <span className="monsterP">
                     {
                     breakText(hb.texto).map(
@@ -129,6 +188,8 @@ export default function StatBlock({stats}) {
                 </span>
                 ))
             }
+        <hr />
+        <h2 className="specialAbility" style={{marginLeft: "0px", marginTop: "32px"}}>DESCRIÇÃO</h2>
         <span className="monsterP">
             {stats.texto}
         </span>

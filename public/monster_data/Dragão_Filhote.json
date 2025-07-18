@@ -9,10 +9,10 @@
   "vulnerabilidade": "",
   "tamanho": 1,
   "arma": "Garras, Mordida",
-  "dano": "d6",
+  "dano": "d10",
   "tier": 1,
   "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-  "imagem": "DragãoFilhote",
+  "imagem": "Black Dragon Wyrmling",
   "habilidades": [
     {
       "titulo": "Bafo de Fogo",

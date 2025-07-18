@@ -12,7 +12,7 @@
   "dano": "d6",
   "tier": 1,
   "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-  "imagem": "ArmaduraAnimada",
+  "imagem": "Animated Armor",
   "habilidades": [
     {
       "titulo": "Camuflagem",

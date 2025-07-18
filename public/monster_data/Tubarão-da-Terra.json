@@ -9,10 +9,10 @@
   "vulnerabilidade": "",
   "tamanho": 2,
   "arma": "Mordida",
-  "dano": "d6",
+  "dano": "d12",
   "tier": 1,
   "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-  "imagem": "TubarãodaTerra",
+  "imagem": "Bulette",
   "habilidades": [
     {
       "titulo": "Salto Mortal",

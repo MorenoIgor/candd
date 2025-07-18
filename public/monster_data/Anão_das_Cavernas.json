@@ -9,10 +9,10 @@
   "vulnerabilidade": "",
   "tamanho": 1,
   "arma": "Martelo, Lança",
-  "dano": "d6",
+  "dano": "d8",
   "tier": 1,
   "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-  "imagem": "AnãodasCavernas",
+  "imagem": "Duergar",
   "habilidades": [
     {
       "titulo": "Crescer",

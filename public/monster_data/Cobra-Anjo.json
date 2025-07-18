@@ -12,7 +12,7 @@
   "dano": "d6",
   "tier": 1,
   "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-  "imagem": "CobraAnjo",
+  "imagem": "Couatl",
   "habilidades": [
     {
       "titulo": "Veneno",
@@ -24,7 +24,7 @@
     },
     {
       "titulo": "Conjuradora Divina",
-      "texto": "a Cobra-Anjo pode conjurar Magias Divinas até o nível 4. A Dificuldade para evitar seus efeitos é 14."
+      "texto": "A Cobra-Anjo pode conjurar Magias Divinas até o nível 4. A Dificuldade para evitar seus efeitos é 14."
     }
   ]
 }

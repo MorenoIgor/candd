@@ -9,10 +9,10 @@
   "vulnerabilidade": "",
   "tamanho": 3,
   "arma": "Clava",
-  "dano": "d6",
+  "dano": "d8",
   "tier": 1,
   "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-  "imagem": "GigantedePedra",
+  "imagem": "Stone Giant",
   "habilidades": [
     {
       "titulo": "Arremessar Pedras",

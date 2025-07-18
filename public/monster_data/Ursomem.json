@@ -9,10 +9,10 @@
   "vulnerabilidade": "",
   "tamanho": 1,
   "arma": "Machado",
-  "dano": "d6",
+  "dano": "d12",
   "tier": 1,
   "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-  "imagem": "Ursomem",
+  "imagem": "Werebear",
   "habilidades": [
     {
       "titulo": "Licantropo",

@@ -9,10 +9,10 @@
   "vulnerabilidade": "",
   "tamanho": 2,
   "arma": "Espada, Arco",
-  "dano": "d6",
+  "dano": "d8",
   "tier": 1,
   "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-  "imagem": "Arânio",
+  "imagem": "Drider",
   "habilidades": [
     {
       "titulo": "Conjurador Arcano",

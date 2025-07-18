@@ -9,14 +9,14 @@
   "vulnerabilidade": "",
   "tamanho": 1,
   "arma": "Garras",
-  "dano": "d6",
+  "dano": "d8",
   "tier": 1,
   "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-  "imagem": "BruxadasBrumas",
+  "imagem": "Night Hah",
   "habilidades": [
     {
       "titulo": "Conjuradora Arcana",
-      "texto": "a Bruxa das Brumas pode conjurar Magias Arcanas até o nível 5. A Dificuldade para evitar seus efeitos é 15."
+      "texto": "A Bruxa das Brumas pode conjurar Magias Arcanas até o nível 5. A Dificuldade para evitar seus efeitos é 15."
     },
     {
       "titulo": "Ilusão",

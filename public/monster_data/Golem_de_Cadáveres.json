@@ -9,10 +9,10 @@
   "vulnerabilidade": "fogo",
   "tamanho": 1,
   "arma": "Pancada",
-  "dano": "d6",
+  "dano": "d8",
   "tier": 1,
   "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-  "imagem": "GolemdeCadáveres",
+  "imagem": "Flesh Golem",
   "habilidades": [
     {
       "titulo": "Frenesi",

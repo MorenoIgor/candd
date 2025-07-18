@@ -9,10 +9,10 @@
   "vulnerabilidade": "",
   "tamanho": 1,
   "arma": "Marreta",
-  "dano": "d6",
+  "dano": "d10",
   "tier": 1,
   "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-  "imagem": "AnãodoVulcão",
+  "imagem": "Azer",
   "habilidades": [
     {
       "titulo": "Corpo em Chamas",

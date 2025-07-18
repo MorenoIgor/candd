@@ -9,10 +9,10 @@
   "vulnerabilidade": "",
   "tamanho": 1,
   "arma": "Garras, Mordida, Espada, Arco",
-  "dano": "d6",
+  "dano": "d8",
   "tier": 1,
   "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-  "imagem": "Tigromem",
+  "imagem": "Weretiger",
   "habilidades": [
     {
       "titulo": "Licantropo",

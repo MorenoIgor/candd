@@ -12,11 +12,11 @@
   "dano": "d6",
   "tier": 1,
   "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-  "imagem": "Dríade",
+  "imagem": "Dryad",
   "habilidades": [
     {
       "titulo": "Conjuradora Natural",
-      "texto": "a Dríade pode conjurar Magias Naturais até o nível 1. A Dificuldade para evitar seus efeitos é 11."
+      "texto": "A Dríade pode conjurar Magias Naturais até o nível 1. A Dificuldade para evitar seus efeitos é 11."
     },
     {
       "titulo": "Encantamento",

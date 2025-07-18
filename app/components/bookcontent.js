@@ -24,7 +24,20 @@ export default function BookContent({chapter,page}) {
         ).then(
           (text) => {
             setTextoPagina(text)
-          }
+          },
+          setTimeout(()=> {
+            if (chapter==2 && page==4) {
+              let titles = document.querySelectorAll("h3")
+              for (let t of titles) {
+                t.classList.add("classTitle")
+              }
+            } else {
+              let titles = document.querySelectorAll("h3")
+              for (let t of titles) {
+                t.classList.remove("classTitle")
+              }
+            }
+          },100)
         )
     
       }

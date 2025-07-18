@@ -9,10 +9,10 @@
   "vulnerabilidade": "",
   "tamanho": 2,
   "arma": "Bico, Garras",
-  "dano": "d6",
+  "dano": "d10",
   "tier": 1,
   "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-  "imagem": "Hipogrifo",
+  "imagem": "Hippogriff",
   "habilidades": [
     {
       "titulo": "Galope",

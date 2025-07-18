@@ -9,10 +9,10 @@
   "vulnerabilidade": "",
   "tamanho": 1,
   "arma": "Picareta",
-  "dano": "d6",
+  "dano": "d8",
   "tier": 1,
   "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-  "imagem": "GnomodasCavernas",
+  "imagem": "Deep Gnome",
   "habilidades": [
     {
       "titulo": "Conjurador Arcano",

@@ -9,7 +9,7 @@
   "vulnerabilidade": "",
   "tamanho": 2,
   "arma": "Machado",
-  "dano": "d6",
+  "dano": "d12",
   "tier": 1,
   "texto": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
   "imagem": "Minotaur",

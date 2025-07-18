@@ -28,7 +28,7 @@ const alphabeticalMonsters = [
     ["Quimera"], // Q
     ["Ratomem"], // R
     ["Salamandrino", "Sátiro", "Súcubo"], // S
-    ["Tapete-Vivo", "Tigromem", "Touro-Blindado", "Troll", "Tubarão-da_Terra"], // T
+    ["Tapete-Vivo", "Tigromem", "Touro-Blindado", "Troll", "Tubarão-da-Terra"], // T
     ["Unicórnio", "Ursomem"], // U
     ["Vampiro", "Verme-Bicudo", "Vulto"], // V
     [], // W
@@ -42,7 +42,7 @@ const levelSortedMonsters = [
     ["Anão_do_Vulcão", "Aranha-em-Pé", "Bicho-Devorador", "Bruxa_do_Mar", "Centauro", "Cubo_Gelatinoso", "Formiga-Voraz", "Gárgula", "Gosma-Catarrenta", "Harpia", "Hipogrifo", "Mímico", "Ogro", "Peixe-Pescador", "Povo-Enguia", "Ratomem"], //2
     ["Aranha-Fantasma", "Basilisco", "Bicho-Barbudo", "Bruxa", "Cão_de_Fogo", "Dragão_Filhote", "Égua-da-Noite", "Esqueleto_Gigante", "Estrijurso", "Fantasma", "Goblin-Feroz", "Kotengu", "Lobisomem", "Mantícora", "Minotauro", "Morto-Vivo", "Múmia", "Orc", "Súcubo"], //3
     ["Assombração", "Cobra-Anjo", "Gigante-de-duas-Cabeças", "Goblin-Peludo", "Lacraia_Gigante", "Lagosta-Venenosa", "Lamia", "Medusa", "Monstro_do_Pântano", "Porcomem", "Povo-Dragão", "Povo-Hiena", "Povo-Pássaro", "Salamandrino", "Tapete-Vivo", "Tigromem", "Touro-Blindado"], //4
-    ["Bicho-Espinhoso", "Devorador-Demente", "Elemental_da_Água", "Elemental_da_Terra", "Elemental_do_Ar", "Elemental_do_Fogo", "Gigante_das_Colinas", "Golem_de_Cadáveres", "Gosma-Suja", "Guardião_Animado", "Horror_Invisível", "Horror_Tentacular", "Papa-Pedra", "Troll", "Tubarão-da_Terra", "Unicórnio", "Ursomem"], //5
+    ["Bicho-Espinhoso", "Devorador-Demente", "Elemental_da_Água", "Elemental_da_Terra", "Elemental_do_Ar", "Elemental_do_Fogo", "Gigante_das_Colinas", "Golem_de_Cadáveres", "Gosma-Suja", "Guardião_Animado", "Horror_Invisível", "Horror_Tentacular", "Papa-Pedra", "Troll", "Tubarão-da-Terra", "Unicórnio", "Ursomem"], //5
     ["Arânio", "Bicho-Abutre", "Dragão_Jovem", "Gênio", "Povo-Felino", "Quimera"], //6
     ["Oni"], //7
     ["Dinossauro"], //8

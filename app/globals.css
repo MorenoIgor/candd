@@ -41,6 +41,8 @@ table {
   border-collapse: collapse;
   border: 2pt solid black;
   margin-left: 10pt;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 thead {
@@ -158,6 +160,7 @@ fieldset {
 
 .monsterImage, .bodyContent img {
   width: 66%;
+  height: auto;
   margin: auto;
   display: block;
   margin-bottom: 20pt;
@@ -267,8 +270,13 @@ fieldset {
   display: none;
 }
 
+.minusLeft {
+  margin-left: -300px;
+}
+
 hr {
   border: 1px solid saddlebrown;
+  margin: 48px;
 }
 
 .statBlockContainer {
@@ -304,4 +312,51 @@ hr {
 .habilidades {
   padding-bottom: 24px;
   display: block;
+}
+
+.tierTitle {
+  text-align: center;
+  font-size: 16pt;
+}
+
+@keyframes slideInFromLeft {
+  from {
+    margin-left: -300px; /* Starts off-screen to the left */
+    opacity: 0; /* Optional: start slightly transparent */
+  }
+  to {
+    margin-left: 0; /* Ends at normal position */
+    opacity: 1; /* Optional: fully visible at end */
+  }
+}
+
+@keyframes slideOutToLeft {
+  from {
+    margin-left: 0; /* Starts off-screen to the left */
+    opacity: 1; /* Optional: start slightly transparent */
+  }
+  to {
+    margin-left: -300px; /* Ends at normal position */
+    opacity: 0; /* Optional: fully visible at end */
+  }
+}
+
+.slide-in-element {
+  animation: slideInFromLeft 0.8s ease-out forwards;
+  /* Adjust timing (0.8s) and easing (ease-out) as needed */
+}
+
+.slide-out-element {
+  animation: slideOutToLeft 0.8s ease-out forwards;
+  /* Adjust timing (0.8s) and easing (ease-out) as needed */
+}
+
+.classTitle {
+  color: saddlebrown;
+  text-align: center;
+  font-size: 32pt;
+}
+
+.centered {
+  text-align: center;
 }
